@@ -1,0 +1,17 @@
+Report,,,"=DISPIMG(""ID_24FF91F9E61D40D0BFEF396E55F21BAF"",1)",,
+,,,,,,
+Summary,,,,,,
+Serial Number,,,,,,
+Configuration Name,DTU_EOL_RX,,,,,
+River EOL Doc version,,,,,,
+Date,22-07-2026_14-49-09,,,,,
+Operator,Admin,,,,,
+DUT,1,,,,,
+Cycle time,8.35,,,,,
+Overall Results,Fail,,,,,
+,,,,,,
+Results,,,,,,
+ScriptName,Stepname,LSL,ACTUAL,USL,RESULT,UNIT
+Signal connector J9 impedence check,Config_DMM_RES,,,,,
+Signal connector J9 impedence check,Turn_ON CAN_H & CAN_L Relays,,,,,
+Signal connector J9 impedence check,Read RES CAN_H & CAN_L,117.00,98999999999999993400000000000000000000.00,123.00,Fail,ohm

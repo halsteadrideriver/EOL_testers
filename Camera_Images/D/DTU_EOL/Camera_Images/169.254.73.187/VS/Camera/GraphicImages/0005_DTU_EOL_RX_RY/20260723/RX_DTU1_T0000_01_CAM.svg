@@ -1,0 +1,10 @@
+<svg graphicVer="2" x="-999999" y="-999999" width="2544" height="1904" overflow="visible" preserveAspectRatio="xMidYMid" xml:space="default" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" version="1.1" >
+<image x="0" y="0" width="2544" height="1904" xlink:href="RX_DTU1_T0000_01_CAM.jpg" />
+<!--Tool[0001].Output.Graphic.Region-->
+<g class="EnableCustomAttribute" custom_stroke-width="2.000" stroke="#f53f08" stroke-width="2.000" >
+<rect x="87.000" y="570.000" width="1707.000" height="804.000" fill="none" />
+<polygon points="940.500,570.000 932.500,565.200 932.500,574.800 " fill="#f53f08" fill-opacity="1.000" stroke="none" />
+</g>
+<!--Tool[0001].Output.Graphic.ArrayTarget-->
+<!--Tool[0001].Output.Graphic.PrimaryTarget-->
+</svg>

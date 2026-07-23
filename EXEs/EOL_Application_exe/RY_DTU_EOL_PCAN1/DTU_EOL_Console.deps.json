@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "DTU_EOL_Console/1.0.0": {
+        "dependencies": {
+          "Peak.PCANBasic.NET": "4.10.1.968"
+        },
+        "runtime": {
+          "DTU_EOL_Console.dll": {}
+        }
+      },
+      "Peak.PCANBasic.NET/4.10.1.968": {
+        "runtime": {
+          "lib/netstandard2.0/PCANBasic.NET.dll": {
+            "assemblyVersion": "4.10.1.968",
+            "fileVersion": "4.10.1.968"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DTU_EOL_Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Peak.PCANBasic.NET/4.10.1.968": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sUxW8dhaIB+x7XFcpepad1DaD1N5a9l6qB2cyOgDCv7M+SmF87hOIK/EsT42Th92exA02PfCr6+ilnZ0XYeyrg==",
+      "path": "peak.pcanbasic.net/4.10.1.968",
+      "hashPath": "peak.pcanbasic.net.4.10.1.968.nupkg.sha512"
+    }
+  }
+}

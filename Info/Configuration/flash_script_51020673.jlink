@@ -1,0 +1,7 @@
+r
+h
+erase
+loadfile "C:\Users\A. Halstesd Evander\Documents\DTU_Manual_Flash\Info\Configuration\RX01_DTU_RA4_Applicaton_0.0.3.hex"
+r
+g
+exit
