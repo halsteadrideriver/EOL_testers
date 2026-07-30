@@ -1,0 +1,19 @@
+Report,,,"=DISPIMG(""ID_24FF91F9E61D40D0BFEF396E55F21BAF"",1)",,,
+,,,,,,,
+Summary,,,,,,,
+Serial Number,,,,,,,
+Configuration Name,Aborted,,,,,,
+River EOL Doc Version,T0_DTU_V2.1,,,,,,
+Date,20-06-2026_20-45-14,,,,,,
+Operator,Admin,,,,,,
+DUT,1,,,,,,
+Cycle time,12.62,,,,,,
+Overall Results,Fail,,,,,,
+,,,,,,,
+Results,,,,,,,
+ScriptName,Stepname,LSL,ACTUAL,USL,RESULT,UNIT,Time(s)
+Power Lines Impedance check,Config DAQ(1),,,,,,1.04
+Power Lines Impedance check,Read RES TP19-TP3,5.00,99000000000000001000000000000000000.00,Inf,Pass,Kohm,0.78
+Power Lines Impedance check,Config DAQ(3),,,,,,4.43
+Power Lines Impedance check,Read_RES_TP2-TP3,5.00,99000000000000001000000000000000000.00,Inf,Pass,Kohm,0.83
+Power Lines Impedance check,Config DAQ(5),,,,,,4.63

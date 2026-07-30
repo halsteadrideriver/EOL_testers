@@ -1,0 +1,31 @@
+Report,,,"=DISPIMG(""ID_24FF91F9E61D40D0BFEF396E55F21BAF"",1)",,,
+,,,,,,,
+Summary,,,,,,,
+Serial Number,BDDFTC025686,,,,,,
+Configuration Name,Aborted,,,,,,
+River EOL Doc Version,T0_DTU_V2.1,,,,,,
+Date,20-06-2026_21-33-28,,,,,,
+Operator,Admin,,,,,,
+DUT,2,,,,,,
+Cycle time,126.90,,,,,,
+Overall Results,Fail,,,,,,
+,,,,,,,
+Results,,,,,,,
+ScriptName,Stepname,LSL,ACTUAL,USL,RESULT,UNIT,Time(s)
+Power Lines Impedance check,Config DAQ(1),,,,,,1.04
+Power Lines Impedance check,Read RES TP19-TP3,5.00,59399999999999987700000000000000000.00,Inf,Pass,Kohm,0.78
+Power Lines Impedance check,Config DAQ(3),,,,,,6.93
+Power Lines Impedance check,Read_RES_TP2-TP3,5.00,5505.70,Inf,Pass,Kohm,0.83
+Power Lines Impedance check,Config DAQ(5),,,,,,9.13
+Power Lines Impedance check,Read_RES_TP7-TP9,3.00,46.03,Inf,Pass,Kohm,0.83
+Power Lines Impedance check,Config DAQ(7),,,,,,50.69
+Power Lines Impedance check,Read_RES_TP12-TP3,3.00,4.15,Inf,Pass,Kohm,6.92
+J9 impedence check,Config DAQ(11),,,,,,1.54
+J9 impedence check,Read_RES_TP48-TP41,117.00,121.88,123.00,Pass,ohm,7.71
+Power up,Set_14_PS1,,,,,,1.54
+Power up,Set_14V_ps_to 3A,,,,,,1.54
+Power up,Turn ON +14V & GND Relays,,,,,,1.04
+Power up,Turn_on_14VPS,,,,,,0.74
+Power up,Config DAQ(18),,,,,,1.54
+Power up,Read_VOL_TP66-TP3,2.45,2.69,2.80,Pass,V,6.77
+Voltage Measurements,Config DAQ(21),,,,,,1.54

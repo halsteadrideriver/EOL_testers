@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="01. Main">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="02. Fun">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="03. VS">
+      <UniqueIdentifier>{061e5d16-3fb1-45a3-ae31-f4c911c079c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Fun\drv">
+      <UniqueIdentifier>{f801bbf5-d06e-49c9-9265-79abb27751e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DevMoniter.cpp">
+      <Filter>02. Fun</Filter>
+    </ClCompile>
+    <ClCompile Include="CallbackHelper.cpp">
+      <Filter>02. Fun</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleHelper.cpp">
+      <Filter>02. Fun</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleMoniter.cpp">
+      <Filter>02. Fun</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>03. VS</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>01. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Thread\Thread.cpp">
+      <Filter>02. Fun</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkHelper.cpp">
+      <Filter>02. Fun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Drv\DLFWDriver.cpp">
+      <Filter>02. Fun\drv</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DevMoniter.h">
+      <Filter>02. Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="CallbackHelper.h">
+      <Filter>02. Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleHelper.h">
+      <Filter>02. Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleMoniter.h">
+      <Filter>02. Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Thread\Thread.h">
+      <Filter>02. Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>03. VS</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>03. VS</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkHelper.h">
+      <Filter>02. Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Drv\DLFWDriver.h">
+      <Filter>02. Fun\drv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Drv\DLFWDrvDef.h">
+      <Filter>02. Fun\drv</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt">
+      <Filter>03. VS</Filter>
+    </None>
+  </ItemGroup>
+</Project>

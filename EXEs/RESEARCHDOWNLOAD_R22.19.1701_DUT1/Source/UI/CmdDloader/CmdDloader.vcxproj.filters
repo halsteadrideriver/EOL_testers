@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="01. Main">
+      <UniqueIdentifier>{e70cbfa3-3e60-414b-9c27-384875ca1263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Fun">
+      <UniqueIdentifier>{fc55ec2b-e72c-43db-94bb-02df9b1e692b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. VS">
+      <UniqueIdentifier>{b13e6183-232c-468d-83ad-cccdad8a9939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Fun\drv">
+      <UniqueIdentifier>{a2bd25c9-d6d0-43ed-9217-130c6f251df8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>01. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CallbackHelper.cpp">
+      <Filter>02. Fun</Filter>
+    </ClCompile>
+    <ClCompile Include="DevMoniter.cpp">
+      <Filter>02. Fun</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkHelper.cpp">
+      <Filter>02. Fun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Drv\DLFWDriver.cpp">
+      <Filter>02. Fun\drv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Thread\Thread.cpp">
+      <Filter>02. Fun</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>03. VS</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdHelper.cpp">
+      <Filter>02. Fun</Filter>
+    </ClCompile>
+    <ClCompile Include="Download.cpp">
+      <Filter>01. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadMoniter.cpp">
+      <Filter>02. Fun</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalHelper.cpp">
+      <Filter>02. Fun</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CallbackHelper.h">
+      <Filter>02. Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="DevMoniter.h">
+      <Filter>02. Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkHelper.h">
+      <Filter>02. Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Drv\DLFWDriver.h">
+      <Filter>02. Fun\drv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Drv\DLFWDrvDef.h">
+      <Filter>02. Fun\drv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Thread\Thread.h">
+      <Filter>02. Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>03. VS</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>03. VS</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdHelper.h">
+      <Filter>02. Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="Download.h">
+      <Filter>01. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadMoniter.h">
+      <Filter>02. Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalHelper.h">
+      <Filter>02. Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd_def.h">
+      <Filter>02. Fun</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>03. VS</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CmdDloader.rc">
+      <Filter>03. VS</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

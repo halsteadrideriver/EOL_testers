@@ -1,0 +1,7 @@
+r
+h
+erase
+loadfile "D:\River\DTU_EOL_24\Info\Configuration\RX1_Gen2_5_T0_DTU_EOL__v0.0.71.hex"
+r
+g
+exit

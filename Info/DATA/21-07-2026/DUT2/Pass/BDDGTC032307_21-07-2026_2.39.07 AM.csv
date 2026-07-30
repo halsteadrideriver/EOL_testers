@@ -1,0 +1,119 @@
+Report,,,"=DISPIMG(""ID_24FF91F9E61D40D0BFEF396E55F21BAF"",1)",,,
+,,,,,,,
+Summary,,,,,,,
+Serial Number,BDDGTC032307,,,,,,
+Configuration Name,DTU_FCT_RX_RY2,,,,,,
+River EOL Doc Version,T0_DTU_V2.1,,,,,,
+Date,21-07-2026_2.39.07 AM,,,,,,
+Operator,Charan_13573,,,,,,
+DUT,2,,,,,,
+Cycle time,527.02,,,,,,
+Overall Results,Pass,,,,,,
+,,,,,,,
+Results,,,,,,,
+ScriptName,Stepname,LSL,ACTUAL,USL,RESULT,UNIT,Time(s)
+Power Lines Impedance check,Config DAQ(1),,,,,,1.54
+Power Lines Impedance check,Read RES TP19-TP3,5.00,247.66,Inf,Pass,Kohm,7.01
+Power Lines Impedance check,Config DAQ(3),,,,,,1.54
+Power Lines Impedance check,Read_RES_TP2-TP3,5.00,49.55,Inf,Pass,Kohm,6.92
+Power Lines Impedance check,Config DAQ(5),,,,,,1.54
+Power Lines Impedance check,Read_RES_TP7-TP9,3.00,284.15,Inf,Pass,Kohm,6.92
+Power Lines Impedance check,Config DAQ(7),,,,,,1.54
+Power Lines Impedance check,Read_RES_TP12-TP3,3.00,4.03,Inf,Pass,Kohm,6.92
+J9 impedence check,Config DAQ(11),,,,,,1.54
+J9 impedence check,Read_RES_TP48-TP41,117.00,121.89,123.00,Pass,ohm,6.78
+Power up,Set_14_PS1,,,,,,1.54
+Power up,Set_14V_ps_to 3A,,,,,,1.54
+Power up,Turn ON +14V & GND Relays,,,,,,1.53
+Power up,Turn_on_14VPS,,,,,,0.74
+Power up,Config DAQ(18),,,,,,1.54
+Power up,Read_VOL_TP66-TP3,2.45,2.70,2.80,Pass,V,6.71
+Voltage Measurements,Config DAQ(21),,,,,,1.54
+Voltage Measurements,Read_VOL_TP02-TP03,4.90,5.09,5.20,Pass,V,7.03
+Voltage Measurements,Config DAQ(19),,,,,,1.54
+Voltage Measurements,Read_VOL_TP19-TP3,13.90,13.99,14.10,Pass,V,6.63
+Voltage Measurements,Config_DAQ(22),,,,,,1.54
+Voltage Measurements,Read_VOL_TP7-TP9,3.70,3.84,3.90,Pass,V,6.89
+Voltage Measurements,Config DAQ(23),,,,,,1.54
+Voltage Measurements,Read_VOL_TP12-TP13,2.90,3.02,3.10,Pass,V,6.92
+MCU Software Flash,Flash Software,,PASS,,Pass,,6.96
+MCU Software Flash,Power_CYCLE(1),,,,,,1.54
+MCU Software Flash,Off_14V(1),,,,,,1.54
+MCU Software Flash,On_Power_cycle(1),,,,,,1.54
+MCU Software Flash,On_14V(1),,,,,,5.54
+S.No_write and read,Write_Barcode,,,,,,2.65
+S.No_write and read,Read_barcode_STATUS,, 62 1,,Pass,,10.54
+S.No_write and read,Power14Voff(1),,,,,,2.54
+S.No_write and read,Poweron14V(1),,,,,,2.54
+S.No_write and read,Send_Request_Barcode,,,,,,1.54
+S.No_write and read,Read_barcode_written,,BDDGTC032307_BDDGTC032307_BDDGTC032307,,Pass,,6.67
+S.No_write and read,Write RX_RY_check,,,,,,2.54
+Pre-Flash Neoway,SET_USB_RELAY,,,,,,1.53
+Neoway Flashing,Set Boot Mode,,,,,,5.54
+Neoway Flashing,Set_To_Boot_mode,,,,,,5.54
+Neoway Flashing,Set_USB_relay_on,,,,,,1.53
+Neoway Flashing,Flash Software(1),,success,,Pass,,23.85
+Neoway Flashing,Reset_Boot_Mode,,,,,,3.54
+Post Neoway Flash,Read_boot_mode_status,, 6F,,Pass,,10.54
+Post Neoway Flash,Read_boot_state_again,, 6F 0,,Pass,,1.54
+Post Neoway Flash,On_power,,,,,,1.53
+Post Neoway Flash,OFF_14V_supply,,,,,,1.54
+Post Neoway Flash,ON_14V_again(1),,,,,,10.54
+Check N58 Flash,Send_N58_Check_msg,,,,,,10.54
+Check N58 Flash,Send_again_n58_flash_msg,,,,,,10.54
+Check N58 Flash,Resend_N58_Rest msg,,,,,,2.54
+Check N58 Flash,Read-check_ssl,,35255,,Pass,,0.74
+SSL Certification,Connect USB relays,,,,,,1.53
+SSL Certification,Read_Set_SSL,,OKAY,,Pass,,20.04
+SSL Certification,Power_off_ssl,,,,,,1.54
+SSL Certification,Power_on_SSL,,,,,,2.54
+SSL Certification,Send_msg_22x10,,,,,,20.54
+SSL Certification,Send _22x10 again,,,,,,20.54
+SSL Certification,Read_SSL_DeviceID,,35255,,Pass,,25.54
+SSL Certification,,,,,,,20.54
+Firmware Version,Get_FW_Ver_Info,,,,,,1.54
+Firmware Version,Read_FW_VER,, 0 0 76,,Pass,,1.54
+Hardware Version,Read_HW_VER,, 3 0,,Pass,,1.54
+Active Current Check,Send_0x4401_active current,,,,,,1.54
+Active Current Check,Read_active_current,0.00,46.00,200.00,Pass,mA,3.53
+Active Current Check,Set_12V_ps,,,,,,2.04
+Active Current Check,Set_current_to_3A,,,,,,1.04
+Active Current Check,On_12V_Power,,,,,,0.64
+FCT Initialization,Read_FCT_Initialize ack,,1,,Pass,,5.54
+FCT Initialization,Send GPS command,,,,,,1.54
+Highbeam Indicator Check,Turn ON HB_IND,,,,,,1.53
+Highbeam Indicator Check,Config DAQ(27),,,,,,1.54
+Highbeam Indicator Check,Read Vol_TP52,5.00,5.43,Inf,Pass,V,9.93
+Highbeam Indicator Check,Read_ON_HB,,1,,Pass,,2.54
+Highbeam Indicator Check,Turn OFF HB_IND,,,,,,1.53
+Highbeam Indicator Check,Config DAQ(28),,,,,,1.54
+Highbeam Indicator Check,Read_VOL_TP52(1),0.00,0.00,0.10,Pass,V,6.81
+Highbeam Indicator Check,Read_OFF_HB,,0,,Pass,,1.54
+Left Indicator Check,Turn ON L_IND,,,,,,1.53
+Left Indicator Check,Config DAQ(29),,,,,,1.54
+Left Indicator Check,Read Vol_TP50,5.00,5.43,Inf,Pass,V,6.60
+Left Indicator Check,Read_ON_L,,1,,Pass,,1.54
+Left Indicator Check,Turn OFF L_IND,,,,,,1.53
+Left Indicator Check,Config DAQ(30),,,,,,1.54
+Left Indicator Check,Read_VOL_TP50(1),0.00,0.00,0.10,Pass,V,6.81
+Left Indicator Check,Read_OFF_L,,0,,Pass,,1.54
+Right Indicator Check,Turn ON R_IND,,,,,,1.53
+Right Indicator Check,Config DAQ(31),,,,,,1.54
+Right Indicator Check,Read_VOL_TP51,5.00,5.43,Inf,Pass,V,6.60
+Right Indicator Check,Read_ON_R,,1,,Pass,,1.54
+Right Indicator Check,Turn OFF R_IND,,,,,,1.53
+Right Indicator Check,Config DAQ(32),,,,,,1.54
+Right Indicator Check,Read Vol_TP51,0.00,0.00,0.10,Pass,V,6.81
+Right Indicator Check,Read_OFF_R,,0,,Pass,,1.04
+Tactile Switch Check,Turn ON SW1,,,,,,1.53
+Tactile Switch Check,Read_ON_SW1,,1,,Pass,,1.54
+Tactile Switch Check,Turn OFF SW1,,,,,,1.53
+Tactile Switch Check,Turn ON SW2,,,,,,1.53
+Tactile Switch Check,Read_ON_SW2,,1,,Pass,,1.54
+Tactile Switch Check,Turn OFF SW2,,,,,,1.53
+GPS_Test,GPS_CMD(1),,,,,,60.54
+GPS_Test,Read_GPS,,12.814,77.669,,Pass,,1.54
+FCT Termination,Uninit FCT,,,,,,1.54
+FCT Termination,Turn OFF +14V,,,,,,1.53
+FCT Termination,Off14V,,,,,,1.54
+FCT Termination,off12V,,,,,,1.54

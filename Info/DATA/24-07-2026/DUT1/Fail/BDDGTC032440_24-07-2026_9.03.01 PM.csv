@@ -1,0 +1,20 @@
+Report,,,"=DISPIMG(""ID_24FF91F9E61D40D0BFEF396E55F21BAF"",1)",,,
+,,,,,,,
+Summary,,,,,,,
+Serial Number,BDDGTC032440,,,,,,
+Configuration Name,DTU_FCT_RX_RY2,,,,,,
+River EOL Doc Version,T0_DTU_V2.1,,,,,,
+Date,24-07-2026_9.03.01 PM,,,,,,
+Operator,Charan_13573,,,,,,
+DUT,1,,,,,,
+Cycle time,27.61,,,,,,
+Overall Results,Fail,,,,,,
+,,,,,,,
+Results,,,,,,,
+ScriptName,Stepname,LSL,ACTUAL,USL,RESULT,UNIT,Time(s)
+Power Lines Impedance check,Config DAQ(1),,,,,,1.54
+Power Lines Impedance check,Read RES TP19-TP3,5.00,142.14,Inf,Pass,Kohm,7.19
+Power Lines Impedance check,Config DAQ(3),,,,,,1.54
+Power Lines Impedance check,Read_RES_TP2-TP3,5.00,41.85,Inf,Pass,Kohm,6.92
+Power Lines Impedance check,Config DAQ(5),,,,,,1.54
+Power Lines Impedance check,Read_RES_TP7-TP9,3.00,0.64,Inf,Fail,Kohm,8.42

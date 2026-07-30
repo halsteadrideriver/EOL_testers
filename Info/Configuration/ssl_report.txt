@@ -1,0 +1,30 @@
+Decrypted API Key:
+1386b392-4547-43f3-8a32-a7c542d944b9
+Comport Number : COM28
+
+Sent IMEI request packet:
+
+IMEI_NUMBER ADD: 865044076696816
+Sending POST request...
+Sending POST request...
+JSON: {"metadata":{"IMEI_Number":"865044076696816"}}
+Response received
+Device credentials: Download Succesffully
+Sent Project ID packet:
+Packet_ID_Response_Okay : 0x75
+Sent Broker packet:
+Broker_ID_Response_Okay : 0x76
+Sent Device ID packet:
+Device_ID_Resposne_Okay : 0x78
+Sent Port Number packet:
+Port_number_Repsonse_Okay : 0x77
+Sent CA Certificate  packet:
+CA_certification_Resposne_Okay : 0x7A
+Sent Device Certificate  packet:
+Device_Certification_Response_Okay : 0x7B
+Sent Device Certificate  packet:
+Device_Private_Key_Repsonse_Okay : 0x7C
+Device Certification Progress Completed
+Serial read error: The operation was canceled.
+No valid commd
+No valid commd

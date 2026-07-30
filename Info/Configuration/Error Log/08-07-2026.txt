@@ -1,0 +1,1 @@
+19:11                    Release Notifier in DMM6500.lvlib:DMM6500.vi:2260004                                        DMM6500.lvlib:DMM6500.vi

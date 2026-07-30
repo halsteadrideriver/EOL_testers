@@ -1,0 +1,68 @@
+#pragma once
+
+enum
+{
+    E_NOT_COMPARE = 0,
+    E_BUILT_IN_COMPARE = 1,
+    E_3RD_PROGRAM_COMPARE = 2,
+    E_BUILT_IN_PLUS_3RD_PROGRAM_COMPARE = 3
+};
+
+enum FDL2_FALG
+{
+    FDL2F_OMADM,
+    FDL2F_PRELOAD,
+    FDL2F_KERNELIMG2,
+    FDL2F_ROMDISK
+};
+
+enum BACKUP_FILE_TYPE
+{
+    E_SAVE_NV_TO_LOCAL = 0,
+    E_SAVE_PRODNV_TO_LOCAL = 1,
+    E_SAVE_PHASECHECK_TO_LOCAL = 2,
+    E_SAVE_TO_LOCAL_UNDEFINE
+};
+
+static const TCHAR* g_szBackupFileType[] =
+{
+    _T( "NV" ),
+    _T( "ProdNV" ),
+    _T( "PhaseCheck" ),
+    _T( "Undefine" )
+};
+
+
+enum
+{
+    REPORT_NORMAL = 0,
+    REPORT_PRESS = 1,
+    REPORT_SOFTSIM
+};
+
+enum
+{
+    E_IMEI = 0,
+    E_SN = 1,
+    E_CHIPUID = 2,
+    E_SN_IMEI = 3
+};
+
+enum DL_STAGE
+{
+    DL_NONE_STAGE,
+    DL_CHK_BAUD,
+    DL_CONNECT,
+    DL_ERASE_FLASH,
+    DL_DL_STAGE,
+    DL_READ_STAGE,
+    DL_RESET_STAGE,
+    DL_READCHIPTYPE_STAGE,
+    DL_READNVITEM_STAGE,
+    DL_CHANGEBUAD_STAGE,
+    DL_FINISH_STAGE,
+    DL_UNPLUGGED_STAGE,
+    DL_PAUSED,
+    DL_SECOND_ENUMPORT,
+    DL_SET_FIRST_MODE
+} ;

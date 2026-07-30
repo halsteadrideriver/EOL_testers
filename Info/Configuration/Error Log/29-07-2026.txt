@@ -1,0 +1,216 @@
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    Release Notifier in DMM6500.lvlib:DMM6500.vi:2260003                                        DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260004                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:55 AM                    Release Notifier in DMM6500.lvlib:DMM6500.vi:2260004                                        DMM6500.lvlib:DMM6500.vi
+10:56 AM                    Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi<ERR>
+Instrument reports:
+-420,"Query UNTERMINATED (from USBTMC);1;2026/07/29 13:27:41.056"
+0,"No error;0;0 0"
+
+
+
+<b>Complete call chain:</b>
+     Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi
+     Keithley DMM6500 DAQ6500 Series.lvlib:Fetch (Multiple).vi
+     Keithley DMM6500 DAQ6500 Series.lvlib:Read (Multiple Points).vi
+     DMM6500.lvlib:DMM6500.vi:2260002                    Measure                    DMM6500.lvlib:DMM6500.vi
+10:56 AM                    Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi<ERR>
+Instrument reports:
+2727,"Command prohibited while trigger model is running;1;2026/07/29 13:27:45.591"
+2727,"Command prohibited while trigger model is running;1;2026/07/29 13:27:45.591"
+2727,"Command prohibited while trigger model is running;1;2026/07/29 13:27:45.591"
+0,"No error;0;0 0"
+
+
+
+<b>Complete call chain:</b>
+     Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi
+     Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi
+     DMM6500.lvlib:DMM6500.vi:2260001                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:56 AM                    VISA Read in Keithley DMM6500 DAQ6500 Series.lvlib:Fetch (Multiple).vi->Keithley DMM6500 DAQ6500 Series.lvlib:Read (Multiple Points).vi->DMM6500.lvlib:DMM6500.vi:2260003                    Measure                    DMM6500.lvlib:DMM6500.vi
+10:56 AM                    Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi<ERR>
+Instrument reports:
+4910,"No readings exist within buffer;1;2026/07/29 13:27:46.550"
+0,"No error;0;0 0"
+
+
+
+<b>Complete call chain:</b>
+     Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi
+     Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi
+     DMM6500.lvlib:DMM6500.vi:2260001                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:56 AM                    Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi<ERR>
+Instrument reports:
+3013,"Cannot set a measure attribute for a function different from the channel function;1;2026/07/29 13:27:53.066"
+0,"No error;0;0 0"
+
+
+
+<b>Complete call chain:</b>
+     Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi
+     Keithley DMM6500 DAQ6500 Series.lvlib:Configure NPLC.vi
+     DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:56 AM                    Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi<ERR>
+Instrument reports:
+2727,"Command prohibited while trigger model is running;1;2026/07/29 13:27:57.031"
+2727,"Command prohibited while trigger model is running;1;2026/07/29 13:27:57.031"
+2727,"Command prohibited while trigger model is running;1;2026/07/29 13:27:57.031"
+0,"No error;0;0 0"
+
+
+
+<b>Complete call chain:</b>
+     Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi
+     Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi
+     DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:56 AM                    VISA Read in Keithley DMM6500 DAQ6500 Series.lvlib:Fetch (Multiple).vi->Keithley DMM6500 DAQ6500 Series.lvlib:Read (Multiple Points).vi->DMM6500.lvlib:DMM6500.vi:2260001                    Measure                    DMM6500.lvlib:DMM6500.vi
+10:56 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:56 AM                    Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi<ERR>
+Instrument reports:
+4910,"No readings exist within buffer;1;2026/07/29 13:27:58.050"
+0,"No error;0;0 0"
+
+
+
+<b>Complete call chain:</b>
+     Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi
+     Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi
+     DMM6500.lvlib:DMM6500.vi:2260001                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:56 AM                    Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi<ERR>
+Instrument reports:
+2727,"Command prohibited while trigger model is running;1;2026/07/29 13:28:08.511"
+2727,"Command prohibited while trigger model is running;1;2026/07/29 13:28:08.511"
+2727,"Command prohibited while trigger model is running;1;2026/07/29 13:28:08.511"
+2727,"Command prohibited while trigger model is running;1;2026/07/29 13:28:08.511"
+0,"No error;0;0 0"
+
+
+
+<b>Complete call chain:</b>
+     Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi
+     Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi
+     DMM6500.lvlib:DMM6500.vi:2260001                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:56 AM                    VISA Read in Keithley DMM6500 DAQ6500 Series.lvlib:Fetch (Multiple).vi->Keithley DMM6500 DAQ6500 Series.lvlib:Read (Multiple Points).vi->DMM6500.lvlib:DMM6500.vi:2260003                    Measure                    DMM6500.lvlib:DMM6500.vi
+10:56 AM                    Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi<ERR>
+Instrument reports:
+4910,"No readings exist within buffer;1;2026/07/29 13:28:09.552"
+0,"No error;0;0 0"
+
+
+
+<b>Complete call chain:</b>
+     Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi
+     Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi
+     DMM6500.lvlib:DMM6500.vi:2260001                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:56 AM                    Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi<ERR>
+Instrument reports:
+3013,"Cannot set a measure attribute for a function different from the channel function;1;2026/07/29 13:28:16.054"
+0,"No error;0;0 0"
+
+
+
+<b>Complete call chain:</b>
+     Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi
+     Keithley DMM6500 DAQ6500 Series.lvlib:Configure NPLC.vi
+     DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:56 AM                    Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi<ERR>
+Instrument reports:
+2727,"Command prohibited while trigger model is running;1;2026/07/29 13:28:20.741"
+2727,"Command prohibited while trigger model is running;1;2026/07/29 13:28:20.741"
+2727,"Command prohibited while trigger model is running;1;2026/07/29 13:28:20.741"
+0,"No error;0;0 0"
+
+
+
+<b>Complete call chain:</b>
+     Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi
+     Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi
+     DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:56 AM                    VISA Read in Keithley DMM6500 DAQ6500 Series.lvlib:Fetch (Multiple).vi->Keithley DMM6500 DAQ6500 Series.lvlib:Read (Multiple Points).vi->DMM6500.lvlib:DMM6500.vi:2260001                    Measure                    DMM6500.lvlib:DMM6500.vi
+10:56 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:56 AM                    Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi<ERR>
+Instrument reports:
+4910,"No readings exist within buffer;1;2026/07/29 13:28:22.052"
+0,"No error;0;0 0"
+
+
+
+<b>Complete call chain:</b>
+     Keithley DMM6500 DAQ6500 Series.lvlib:Error Query.vi
+     Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi
+     DMM6500.lvlib:DMM6500.vi:2260001                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:57 AM                    VISA Write in Keithley DMM6500 DAQ6500 Series.lvlib:Configure Measurement.vi->DMM6500.lvlib:DMM6500.vi:2260003                    Configure                    DMM6500.lvlib:DMM6500.vi
+10:58 AM                    Release Notifier in DMM6500.lvlib:DMM6500.vi:2260004                                        DMM6500.lvlib:DMM6500.vi
+10:58 AM                    Release Notifier in DMM6500.lvlib:DMM6500.vi:2260003                                        DMM6500.lvlib:DMM6500.vi

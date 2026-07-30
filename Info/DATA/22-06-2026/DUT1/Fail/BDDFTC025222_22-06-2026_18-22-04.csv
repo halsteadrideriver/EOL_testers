@@ -1,0 +1,20 @@
+Report,,,"=DISPIMG(""ID_24FF91F9E61D40D0BFEF396E55F21BAF"",1)",,,
+,,,,,,,
+Summary,,,,,,,
+Serial Number,BDDFTC025222,,,,,,
+Configuration Name,Aborted,,,,,,
+River EOL Doc Version,T0_DTU_V2.1,,,,,,
+Date,22-06-2026_18-22-04,,,,,,
+Operator,Admin,,,,,,
+DUT,1,,,,,,
+Cycle time,22.72,,,,,,
+Overall Results,Fail,,,,,,
+,,,,,,,
+Results,,,,,,,
+ScriptName,Stepname,LSL,ACTUAL,USL,RESULT,UNIT,Time(s)
+Power Lines Impedance check,Config DAQ(1),,,,,,1.04
+Power Lines Impedance check,Read RES TP19-TP3,5.00,79199999999999999000000000000000000.00,Inf,Pass,Kohm,0.78
+Power Lines Impedance check,Config DAQ(3),,,,,,4.41
+Power Lines Impedance check,Read_RES_TP2-TP3,5.00,238.32,Inf,Pass,Kohm,0.83
+Power Lines Impedance check,Config DAQ(5),,,,,,9.13
+Power Lines Impedance check,Read_RES_TP7-TP9,3.00,46.59,Inf,Pass,Kohm,0.83

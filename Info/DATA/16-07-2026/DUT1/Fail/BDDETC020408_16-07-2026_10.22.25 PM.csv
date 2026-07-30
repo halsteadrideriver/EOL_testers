@@ -1,0 +1,24 @@
+Report,,,"=DISPIMG(""ID_24FF91F9E61D40D0BFEF396E55F21BAF"",1)",,,
+,,,,,,,
+Summary,,,,,,,
+Serial Number,BDDETC020408,,,,,,
+Configuration Name,DTU_FCT_RX_RY2,,,,,,
+River EOL Doc Version,T0_DTU_V2.1,,,,,,
+Date,16-07-2026_10.22.25 PM,,,,,,
+Operator,Amaljith_12571,,,,,,
+DUT,1,,,,,,
+Cycle time,43.52,,,,,,
+Overall Results,Fail,,,,,,
+,,,,,,,
+Results,,,,,,,
+ScriptName,Stepname,LSL,ACTUAL,USL,RESULT,UNIT,Time(s)
+Power Lines Impedance check,Config DAQ(1),,,,,,1.54
+Power Lines Impedance check,Read RES TP19-TP3,5.00,249.05,Inf,Pass,Kohm,7.01
+Power Lines Impedance check,Config DAQ(3),,,,,,1.54
+Power Lines Impedance check,Read_RES_TP2-TP3,5.00,48.30,Inf,Pass,Kohm,6.92
+Power Lines Impedance check,Config DAQ(5),,,,,,1.54
+Power Lines Impedance check,Read_RES_TP7-TP9,3.00,294.33,Inf,Pass,Kohm,6.92
+Power Lines Impedance check,Config DAQ(7),,,,,,1.54
+Power Lines Impedance check,Read_RES_TP12-TP3,3.00,4.29,Inf,Pass,Kohm,6.92
+J9 impedence check,Config DAQ(11),,,,,,1.54
+J9 impedence check,Read_RES_TP48-TP41,117.00,70913.42,123.00,Fail,ohm,6.78

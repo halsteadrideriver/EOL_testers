@@ -1,0 +1,55 @@
+Report,,,"=DISPIMG(""ID_24FF91F9E61D40D0BFEF396E55F21BAF"",1)",,,
+,,,,,,,
+Summary,,,,,,,
+Serial Number,BDDGTC032461,,,,,,
+Configuration Name,DTU_FCT_RX_RY2,,,,,,
+River EOL Doc Version,T0_DTU_V2.1,,,,,,
+Date,24-07-2026_6.07.47 PM,,,,,,
+Operator,Charan_13573,,,,,,
+DUT,1,,,,,,
+Cycle time,172.03,,,,,,
+Overall Results,Fail,,,,,,
+,,,,,,,
+Results,,,,,,,
+ScriptName,Stepname,LSL,ACTUAL,USL,RESULT,UNIT,Time(s)
+Power Lines Impedance check,Config DAQ(1),,,,,,1.54
+Power Lines Impedance check,Read RES TP19-TP3,5.00,250.92,Inf,Pass,Kohm,6.84
+Power Lines Impedance check,Config DAQ(3),,,,,,1.54
+Power Lines Impedance check,Read_RES_TP2-TP3,5.00,44.39,Inf,Pass,Kohm,8.42
+Power Lines Impedance check,Config DAQ(5),,,,,,1.54
+Power Lines Impedance check,Read_RES_TP7-TP9,3.00,295.82,Inf,Pass,Kohm,6.92
+Power Lines Impedance check,Config DAQ(7),,,,,,1.54
+Power Lines Impedance check,Read_RES_TP12-TP3,3.00,3.62,Inf,Pass,Kohm,6.92
+J9 impedence check,Config DAQ(11),,,,,,1.54
+J9 impedence check,Read_RES_TP48-TP41,117.00,121.80,123.00,Pass,ohm,6.78
+Power up,Set_14_PS1,,,,,,1.54
+Power up,Set_14V_ps_to 3A,,,,,,1.54
+Power up,Turn ON +14V & GND Relays,,,,,,1.54
+Power up,Turn_on_14VPS,,,,,,0.74
+Power up,Config DAQ(18),,,,,,1.54
+Power up,Read_VOL_TP66-TP3,2.45,2.70,2.80,Pass,V,6.70
+Voltage Measurements,Config DAQ(21),,,,,,1.54
+Voltage Measurements,Read_VOL_TP02-TP03,4.90,5.10,5.20,Pass,V,7.03
+Voltage Measurements,Config DAQ(19),,,,,,1.54
+Voltage Measurements,Read_VOL_TP19-TP3,13.90,13.99,14.10,Pass,V,6.63
+Voltage Measurements,Config_DAQ(22),,,,,,1.54
+Voltage Measurements,Read_VOL_TP7-TP9,3.70,3.83,3.90,Pass,V,6.89
+Voltage Measurements,Config DAQ(23),,,,,,1.54
+Voltage Measurements,Read_VOL_TP12-TP13,2.90,3.01,3.10,Pass,V,6.92
+MCU Software Flash,Flash Software,,PASS,,Pass,,6.29
+MCU Software Flash,Power_CYCLE(1),,,,,,1.53
+MCU Software Flash,Off_14V(1),,,,,,1.54
+MCU Software Flash,On_Power_cycle(1),,,,,,1.53
+MCU Software Flash,On_14V(1),,,,,,5.54
+S.No_write and read,Write_Barcode,,,,,,2.64
+S.No_write and read,Read_barcode_STATUS,, 62 1,,Pass,,10.54
+S.No_write and read,Power14Voff(1),,,,,,2.54
+S.No_write and read,Poweron14V(1),,,,,,2.54
+S.No_write and read,Send_Request_Barcode,,,,,,1.54
+S.No_write and read,Read_barcode_written,,BDDGTC032461_BDDGTC032461_BDDGTC032461,,Pass,,6.62
+S.No_write and read,Write RX_RY_check,,,,,,2.54
+Pre-Flash Neoway,SET_USB_RELAY,,,,,,1.53
+Neoway Flashing,Set Boot Mode,,,,,,5.54
+Neoway Flashing,Set_To_Boot_mode,,,,,,5.54
+Neoway Flashing,Set_USB_relay_on,,,,,,1.53
+Neoway Flashing,Flash Software(1),,FAIL,,Fail,,15.54

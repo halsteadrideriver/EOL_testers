@@ -1,0 +1,24 @@
+Report,,,"=DISPIMG(""ID_24FF91F9E61D40D0BFEF396E55F21BAF"",1)",,,
+,,,,,,,
+Summary,,,,,,,
+Serial Number,BDDGTC034185,,,,,,
+Configuration Name,DTU_FCT_RX_RY2,,,,,,
+River EOL Doc Version,T0_DTU_V2.1,,,,,,
+Date,29-07-2026_10.57.03 AM,,,,,,
+Operator,Amaljith_12571,,,,,,
+DUT,1,,,,,,
+Cycle time,58.71,,,,,,
+Overall Results,Fail,,,,,,
+,,,,,,,
+Results,,,,,,,
+ScriptName,Stepname,LSL,ACTUAL,USL,RESULT,UNIT,Time(s)
+Power Lines Impedance check,Config DAQ(1),,,,,,1.54
+Power Lines Impedance check,Read RES TP19-TP3,5.00,252.01,Inf,Pass,Kohm,9.86
+Power Lines Impedance check,Config DAQ(3),,,,,,1.04
+Power Lines Impedance check,Read_RES_TP2-TP3,5.00,252.01,Inf,Pass,Kohm,0.78
+Power Lines Impedance check,Config DAQ(5),,,,,,1.04
+Power Lines Impedance check,Read_RES_TP7-TP9,3.00,252.01,Inf,Pass,Kohm,0.78
+Power Lines Impedance check,Config DAQ(7),,,,,,1.04
+Power Lines Impedance check,Read_RES_TP12-TP3,3.00,252.01,Inf,Pass,Kohm,0.78
+J9 impedence check,Config DAQ(11),,,,,,1.04
+J9 impedence check,Read_RES_TP48-TP41,117.00,252007.50,123.00,Fail,ohm,0.78

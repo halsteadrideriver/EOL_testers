@@ -1,0 +1,25 @@
+Report,,,"=DISPIMG(""ID_24FF91F9E61D40D0BFEF396E55F21BAF"",1)",,,
+,,,,,,,
+Summary,,,,,,,
+Serial Number,BDDDTC018054,,,,,,
+Configuration Name,Aborted,,,,,,
+River EOL Doc Version,T0_DTU_V2.1,,,,,,
+Date,29-07-2026_2.52.47 PM,,,,,,
+Operator,Halstead,,,,,,
+DUT,2,,,,,,
+Cycle time,26.42,,,,,,
+Overall Results,Fail,,,,,,
+,,,,,,,
+Results,,,,,,,
+ScriptName,Stepname,LSL,ACTUAL,USL,RESULT,UNIT,Time(s)
+Power Lines Impedance check,Config DAQ(1),,,,,,1.04
+Power Lines Impedance check,Read RES TP19-TP3,5.00,59399999999999987700000000000000000.00,Inf,Pass,Kohm,0.78
+Power Lines Impedance check,Config DAQ(3),,,,,,4.37
+Power Lines Impedance check,Read_RES_TP2-TP3,5.00,231.63,Inf,Pass,Kohm,0.83
+Power Lines Impedance check,Config DAQ(5),,,,,,4.63
+Power Lines Impedance check,Read_RES_TP7-TP9,3.00,49.74,Inf,Pass,Kohm,0.83
+Power Lines Impedance check,Config DAQ(7),,,,,,4.63
+Power Lines Impedance check,Read_RES_TP12-TP3,3.00,290.39,Inf,Pass,Kohm,0.83
+J9 impedence check,Config DAQ(11),,,,,,3.92
+J9 impedence check,Read_RES_TP48-TP41,117.00,4091.13,123.00,Fail,ohm,0.81
+Power up,Set_14_PS1,,,,,,1.54

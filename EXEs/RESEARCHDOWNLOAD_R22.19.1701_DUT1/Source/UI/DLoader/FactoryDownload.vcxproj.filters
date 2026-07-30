@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="01.Include">
+      <UniqueIdentifier>{87bd5d5d-0e0a-4f57-988d-53e6a10208f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI">
+      <UniqueIdentifier>{31fdcfd0-b162-4ae3-9a2a-cd494b831f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\01.APP">
+      <UniqueIdentifier>{0365d166-cf44-4b2c-beed-59c882e88645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\02.Doc">
+      <UniqueIdentifier>{62b2e5f7-5f51-49af-8ba5-bf9a2699ff83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\03.Frame">
+      <UniqueIdentifier>{65840bfb-0e87-400a-a4f4-cb182457522f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\04.View">
+      <UniqueIdentifier>{03d91805-27c7-4b21-9fbf-3b6cd89a0f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.VS">
+      <UniqueIdentifier>{869ec1e6-189d-4758-b04a-ca56e9b68a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.VS\Resource Files">
+      <UniqueIdentifier>{81534e4f-c1bf-4586-b882-01d4ec64fe96}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="03.DLFWHelper">
+      <UniqueIdentifier>{087b0a23-0a30-45c8-b899-2d425eb177b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\05.Ctrl">
+      <UniqueIdentifier>{06f2ecda-a9d7-4ede-9744-13ddb0394757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\06.Dialog">
+      <UniqueIdentifier>{60b6ead8-f22c-4c00-8d14-ddcfe1bc280c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\07.Property">
+      <UniqueIdentifier>{6bb59a6c-127c-4545-abd2-545d2a740019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Fun">
+      <UniqueIdentifier>{23f8f25e-f827-4525-b75c-cac575879212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Fun\Utility">
+      <UniqueIdentifier>{de8a4dca-1a5f-43f0-9230-1ee59bd1a72d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Fun\CheckAlgo">
+      <UniqueIdentifier>{3ee67efa-7884-4de0-af19-6f06a32900ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Fun\Helper">
+      <UniqueIdentifier>{afcd305c-d0d5-4ab0-9dec-7560ff24caff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.DLFWHelper\drv">
+      <UniqueIdentifier>{97bdf97f-c471-4e37-a7e8-2754b4e9a9e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DLoader.cpp">
+      <Filter>02.UI\01.APP</Filter>
+    </ClCompile>
+    <ClCompile Include="DLoaderDoc.cpp">
+      <Filter>02.UI\02.Doc</Filter>
+    </ClCompile>
+    <ClCompile Include="DLoaderView.cpp">
+      <Filter>02.UI\04.View</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>02.UI\03.Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>05.VS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\UtilFn\Utility.cpp">
+      <Filter>04.Fun\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\BarcodeDlg.cpp">
+      <Filter>02.UI\06.Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\CombCtrlDlg.cpp">
+      <Filter>02.UI\06.Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DlgPacketSetting.cpp">
+      <Filter>02.UI\06.Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DlgPassword.cpp">
+      <Filter>02.UI\06.Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\FileDlg.cpp">
+      <Filter>02.UI\06.Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\XAboutDlg.cpp">
+      <Filter>02.UI\06.Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\NumericEdit.cpp">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\NvBackupOptList.cpp">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\NvBkpOptList.cpp">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\ProgressCtrlST.cpp">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\supergridctrl.cpp">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\XListCtrl.cpp">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\XStatic.cpp">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\CoolListCtrl.cpp">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\CoolStatic.cpp">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\CoolStatusBar.cpp">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\CoolToolBar.cpp">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\EditEx.cpp">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\EdtBtnCtrl.cpp">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\FilterEdit.cpp">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\listeditctrl.cpp">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="DLFWHelper\CallbackHelper.cpp">
+      <Filter>03.DLFWHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="DLFWHelper\FrameHelper.cpp">
+      <Filter>03.DLFWHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="DLFWHelper\TaskHelper.cpp">
+      <Filter>03.DLFWHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\SettingsSheet.cpp">
+      <Filter>02.UI\07.Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\PageOptions.cpp">
+      <Filter>02.UI\07.Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\PageCustomization.cpp">
+      <Filter>02.UI\07.Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\PageMiscOptions.cpp">
+      <Filter>02.UI\07.Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\PageMcp.cpp">
+      <Filter>02.UI\07.Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\PageLcdConfig.cpp">
+      <Filter>02.UI\07.Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\PageMultiLang.cpp">
+      <Filter>02.UI\07.Property</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\CheckAlgo\sha256.c">
+      <Filter>04.Fun\CheckAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\PageVolFreq.cpp">
+      <Filter>02.UI\07.Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\PageUartPortSwitch.cpp">
+      <Filter>02.UI\07.Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\PageCalibration.cpp">
+      <Filter>02.UI\07.Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\PageFlashOptions.cpp">
+      <Filter>02.UI\07.Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\MainPage.cpp">
+      <Filter>02.UI\07.Property</Filter>
+    </ClCompile>
+    <ClCompile Include="DLFWHelper\HelperBase.cpp">
+      <Filter>03.DLFWHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Helper\OperationHelper.cpp">
+      <Filter>04.Fun\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Helper\XRandom.cpp">
+      <Filter>04.Fun\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Helper\LcdHelper.cpp">
+      <Filter>04.Fun\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\PortFixedHelper.cpp">
+      <Filter>04.Fun\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\MutiSoftSelectDlg.cpp">
+      <Filter>02.UI\06.Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Lock\CLocks.cpp">
+      <Filter>04.Fun\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Lock\CSimpleLock.cpp">
+      <Filter>04.Fun\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Drv\DLFWDriver.cpp">
+      <Filter>03.DLFWHelper\drv</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\ButtonEx.cpp">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\MesLoginHelper.cpp">
+      <Filter>04.Fun\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="PreloadSelectDlg.cpp">
+      <Filter>02.UI\06.Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Property\PageFlashOptionsEx.cpp">
+      <Filter>02.UI\07.Property</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DLoaderView.h">
+      <Filter>02.UI\04.View</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>02.UI\03.Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="DLoaderDoc.h">
+      <Filter>02.UI\02.Doc</Filter>
+    </ClInclude>
+    <ClInclude Include="DLoader.h">
+      <Filter>02.UI\01.APP</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>05.VS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\WindowsMsgDef.h">
+      <Filter>01.Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\UtilFn\Utility.h">
+      <Filter>04.Fun\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\BarcodeDlg.h">
+      <Filter>02.UI\06.Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\CombCtrlDlg.h">
+      <Filter>02.UI\06.Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DlgPacketSetting.h">
+      <Filter>02.UI\06.Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DlgPassword.h">
+      <Filter>02.UI\06.Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\FileDlg.h">
+      <Filter>02.UI\06.Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\XAboutDlg.h">
+      <Filter>02.UI\06.Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\listeditctrl.h">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\NumericEdit.h">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\NvBackupOptList.h">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\NvBkpOptList.h">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\ProgressCtrlST.h">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\supergridctrl.h">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\XListCtrl.h">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\XStatic.h">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\CoolListCtrl.h">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\CoolStatic.h">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\CoolStatusBar.h">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\CoolToolBar.h">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\EditEx.h">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\EdtBtnCtrl.h">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\FilterEdit.h">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="DLFWHelper\CallbackHelper.h">
+      <Filter>03.DLFWHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="DLFWHelper\FrameHelper.h">
+      <Filter>03.DLFWHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="DLFWHelper\TaskHelper.h">
+      <Filter>03.DLFWHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\SettingsSheet.h">
+      <Filter>02.UI\07.Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\PageOptions.h">
+      <Filter>02.UI\07.Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\PageCustomization.h">
+      <Filter>02.UI\07.Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\PageMiscOptions.h">
+      <Filter>02.UI\07.Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\PageMcp.h">
+      <Filter>02.UI\07.Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\PageLcdConfig.h">
+      <Filter>02.UI\07.Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\PageMultiLang.h">
+      <Filter>02.UI\07.Property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\CheckAlgo\sha256.h">
+      <Filter>04.Fun\CheckAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\PageVolFreq.h">
+      <Filter>02.UI\07.Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\PageUartPortSwitch.h">
+      <Filter>02.UI\07.Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\PageCalibration.h">
+      <Filter>02.UI\07.Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\PageFlashOptions.h">
+      <Filter>02.UI\07.Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\MainPage.h">
+      <Filter>02.UI\07.Property</Filter>
+    </ClInclude>
+    <ClInclude Include="DLFWHelper\HelperBase.h">
+      <Filter>03.DLFWHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Helper\OperationHelper.h">
+      <Filter>04.Fun\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Helper\XRandom.h">
+      <Filter>04.Fun\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Helper\LcdHelper.h">
+      <Filter>04.Fun\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\DLFWDef\DLFWContainerExDef.h">
+      <Filter>01.Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\DLFWDef\DLFWDef.h">
+      <Filter>01.Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\DLFWDef\DLFWEnumExDef.h">
+      <Filter>01.Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\DLFWDef\DLFWStructExDef.h">
+      <Filter>01.Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\PortFixedHelper.h">
+      <Filter>04.Fun\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\MutiSoftSelectDlg.h">
+      <Filter>02.UI\06.Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Lock\CSimpleLock.h">
+      <Filter>04.Fun\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Lock\CLocks.h">
+      <Filter>04.Fun\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Drv\DLFWDriver.h">
+      <Filter>03.DLFWHelper\drv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Drv\DLFWDrvDef.h">
+      <Filter>03.DLFWHelper\drv</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\ButtonEx.h">
+      <Filter>02.UI\05.Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\MesLoginHelper.h">
+      <Filter>04.Fun\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="PreloadSelectDlg.h">
+      <Filter>02.UI\06.Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Property\PageFlashOptionsEx.h">
+      <Filter>02.UI\07.Property</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\bmp_lang.bmp">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\DLoader.ico">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\DLoader.rc2">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\DLoaderDoc.ico">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\folders.bmp">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\OK.ico">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\Pause.ico">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\ProgBlock.bmp">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\ProgBlockBrown.bmp">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\ProgBlockRed.bmp">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\Start.bmp">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\tb_bkg.bmp">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\tm.bmp">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarBmp.bmp">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarBmp_green.bmp">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarBmp_yellow.bmp">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarDis.bmp">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarDis_green.bmp">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarDis_yellow.bmp">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarHot.bmp">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarHot_green.bmp">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarHot_yellow.bmp">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="res\trademark.bmp">
+      <Filter>05.VS\Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt">
+      <Filter>05.VS</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DLoader.rc">
+      <Filter>05.VS\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Resource.h">
+      <Filter>05.VS</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Open_Log.ico">
+      <Filter>05.VS\Resource Files</Filter>
+    </Image>
+    <Image Include="res\Reload.ico">
+      <Filter>05.VS\Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="1. Interface">
+      <UniqueIdentifier>{f16ceded-09bb-48d1-aea8-a1595b8c522c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Impl">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="4. VS">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="4. VS\资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="3. Fun">
+      <UniqueIdentifier>{c5c88716-79d2-4626-9043-f09b7e182aa9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AuthenticationImpl.h">
+      <Filter>2. Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>4. VS</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>4. VS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Tr\Tr.h">
+      <Filter>3. Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\IncludeEx\IAuthentication.h">
+      <Filter>1. Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>4. VS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AuthenticationImpl.cpp">
+      <Filter>2. Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>4. VS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Tr\Tr.cpp">
+      <Filter>3. Fun</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthenticationLib.cpp">
+      <Filter>1. Interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AuthenticationLib.rc">
+      <Filter>4. VS\资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

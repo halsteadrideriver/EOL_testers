@@ -1,0 +1,7 @@
+r
+h
+erase
+loadfile "D:\River\DTU_FCT\Info\Configuration\RX_DTU_RX_RY_EOL_V_0.0.76.hex"
+r
+g
+exit
