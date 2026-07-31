@@ -51,6 +51,7 @@
 		</Item>
 		<Item Name="EOL_DO_UI.ctl" Type="VI" URL="../Modules/MANUAL_MODE/support/EOL_DO_UI.ctl"/>
 		<Item Name="FCT_DO_UI.ctl" Type="VI" URL="../Modules/MANUAL_MODE/support/FCT_DO_UI.ctl"/>
+		<Item Name="Image_match_details.ctl" Type="VI" URL="../Modules/Keyence/support/Search_and_match24/Image_match_details.ctl"/>
 		<Item Name="LAT_Long Dist.vi" Type="VI" URL="../Modules/Test_2/support/LAT_Long Dist.vi"/>
 		<Item Name="n58_manual_status.vi" Type="VI" URL="../Modules/Neoway_flashing/support/n58_manual_status.vi"/>
 		<Item Name="Neoway ctl.ctl" Type="VI" URL="../Modules/Settings/support/Neoway ctl.ctl"/>
