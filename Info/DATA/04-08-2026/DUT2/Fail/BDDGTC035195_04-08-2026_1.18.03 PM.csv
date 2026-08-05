@@ -1,0 +1,15 @@
+Report,,,"=DISPIMG(""ID_24FF91F9E61D40D0BFEF396E55F21BAF"",1)",,,
+,,,,,,,
+Summary,,,,,,,
+Serial Number,BDDGTC035195,,,,,,
+Configuration Name,Aborted,,,,,,
+River EOL Doc Version,T0_DTU_V2.1,,,,,,
+Date,04-08-2026_1.18.03 PM,,,,,,
+Operator,Amaljith_12571,,,,,,
+DUT,2,,,,,,
+Cycle time,58.56,,,,,,
+Overall Results,Fail,,,,,,
+,,,,,,,
+Results,,,,,,,
+ScriptName,Stepname,LSL,ACTUAL,USL,RESULT,UNIT,Time(s)
+Power Lines Impedance check,Config DAQ(1),,,,,,1.04

@@ -1,0 +1,249 @@
+[2026-08-03 15:29:31:643][DLFramework ][3 - Information] DLFramework.dll, FileVersion:27. 23. 42. 03, Vendor: UNISOC TECHNOLOGIES INC.
+[2026-08-03 15:29:31:643][DLFramework ][3 - Information] ResearchDownload Starting ...
+[2026-08-03 15:29:31:643][DLFramework ][3 - Information] Callback : 0xB3F7BC
+[2026-08-03 15:29:31:643][DLFramework ][3 - Information] Create Callback Object
+[2026-08-03 15:29:31:643][DLFramework ][3 - Information] Creat Config object
+[2026-08-03 15:29:31:643][Config      ][3 - Information] D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\App\BMFileType.ini
+[2026-08-03 15:29:31:643][Config      ][3 - Information] D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\App\BMTimeOut.ini
+[2026-08-03 15:29:31:643][Config      ][3 - Information] D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\Setting\ResearchDownload.ini
+[2026-08-03 15:29:31:643][Config      ][3 - Information] D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\App\BMError.ini
+[2026-08-03 15:29:31:643][Config      ][3 - Information] D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\App\BinPack.ini
+[2026-08-03 15:29:31:643][Config      ][3 - Information] D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\App\MCPType.ini
+[2026-08-03 15:29:31:643][Config      ][3 - Information] D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\App\CmdDloader.ini
+[2026-08-03 15:29:31:643][Config      ][3 - Information] D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\App\DLFramework.ini
+[2026-08-03 15:29:31:643][DLFramework ][3 - Information] Creat Stop Event
+[2026-08-03 15:29:31:643][DLFramework ][3 - Information] Creat CDevMoniterHelper Point
+[2026-08-03 15:29:31:643][DLFramework ][3 - Information] Creat SecBinPack object
+[2026-08-03 15:29:31:643][Config      ][3 - Information] Get String: BinPack.ini -> Setting -> MaxDataLength -> 50
+[2026-08-03 15:29:31:643][Config      ][3 - Information] Get String: BinPack.ini -> Setting -> LoadPolicy -> 0
+[2026-08-03 15:29:31:643][DLFramework ][3 - Information] Creat XmlConfigParse object
+[2026-08-03 15:29:31:643][DLFramework ][3 - Information] Creat CConfigHelper Point
+[2026-08-03 15:29:31:643][DLFramework ][3 - Information] Creat CPacketHelper Point
+[2026-08-03 15:29:31:643][DLFramework ][3 - Information] Creat CFrameworkImplHelper Point
+[2026-08-03 15:29:31:643][DLFramework ][3 - Information] Creat CReportHelper Point
+[2026-08-03 15:29:31:643][DLFramework ][3 - Information] Creat Channel object
+[2026-08-03 15:29:31:643][DLFramework ][3 - Information] Creat DevHound object
+[2026-08-03 15:29:31:643][DLFramework ][3 - Information] [ ENTER ] -> LoadSetting( )
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> BaudRates -> 57600,115200,230400,460800,921600,1000000,2000000,3250000,4000000
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> CanEdit -> 1
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> CanSelect -> 1
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> ClosePortFlag -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> CmdPackage -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> FileFilter -> All file(*.*)|*.*|Image file (*.bin;*.img)|*.bin;*.img||
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> FileMode -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> InDLProcess -> 1
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> MarkLastState -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> PacketMode -> 1
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> PowerManageFlag -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> PowerManageInterval -> 10
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> SafetyTipsMsg -> 1
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> ScriptControl -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> ScriptControlStop -> 1
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> ShowFailedMsgBox -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> ShowPacPath -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> ShowRate -> 1
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> ShowSecurityTips -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> SkipBackupNV -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> GUI -> UserGuide -> UNISOC Download User Guide V4.1.pdf
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> CheckMatch -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> DDRCheck -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> EraseAll -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> FlashPageType -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> KeepCharge -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> PowerOff -> 1
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> ReadChipUID -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> Repartition -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> Reset -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> SelfRefresh -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> UartDownload -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> WriteEfuse -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> ReadMCPType -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> EnableLog -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> EnableSecureBoot -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> EnableEndProcess -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> ReadPartition -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> DumpUbootLog -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> VpacCheck -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> CheckNvItemReadCrc -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> Enable7e2DumpLog -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Options -> ComparePartitionInfo -> 1
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> ChipDspMap -> enable -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Download_Packet -> ShowConfirmDialog -> 1
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Download_Packet -> UnpacketDir -> .\
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Download_Packet -> packet -> D:\River\DTU_FCT\Info\Configuration\PAC_File_path\RX01_N58_App_v1.0.0.pac
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> FirstMode -> Enable -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> FirstMode -> FirstMode -> 0x0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> FirstMode -> SupportFeaturePhone -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Mes -> Enable -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> PartitionValue -> ReadEnable -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> PartitionValue -> ReadOffset -> 0x0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> PartitionValue -> ReadPartitionID -> miscdata
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> PartitionValue -> ReadSize -> 0x0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> PartitionValue -> WriteEnable -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> PartitionValue -> WriteOffset -> 0x0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> PartitionValue -> WritePartitionID -> miscdata
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> PartitionValue -> WriteSize -> 0x4
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> PartitionValue -> WriteValue -> TEST
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> PortSetting -> EnableFilter -> 1
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> PortSetting -> EnableFixedPort -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> PortSetting -> FilterPort -> 1,2
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Report -> DUTID -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Report -> Type -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Report -> enable -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> SN -> AutoGenerateSN -> 1
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> SN -> AutoStartAfterInputSN -> 1
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> SN -> NeedPhaseCheck -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> SN -> SN_LENGTH -> 14
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> SN -> WithDataTime -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Selection -> SelectProduct -> PAC_UIX8910_MODEM
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Serial port -> Baud rate -> 115200
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Serial port -> Port -> 31
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Settings -> CheckDriverVer -> 1
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Settings -> WaitTimeForNextChip -> 0
+[2026-08-03 15:29:31:644][Config      ][2 - Warning    ] Section ( ResearchDownload.ini -> default ) is an empty.
+[2026-08-03 15:29:31:644][Config      ][2 - Warning    ] Section ( ResearchDownload.ini -> EraseFlash ) is an empty.
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> NV -> FileNameWithSN -> 1
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> NV -> SaveToLocalFlag -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> NV -> PrintOffset -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> NV -> EnableReadNV -> 0
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> ReadFlash -> flash00 -> 0:0x8000C0:0xFF40:D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ReadFlash\fdl1.sign.img
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> ReadFlash -> flash01 -> 0:0x60000000:0x10000:D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ReadFlash\boot.sign.img
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> ReadFlash -> flash02 -> 0:0x60010000:0x260000:D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ReadFlash\Customer_cat1bis_novolte.sign.img
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> ReadFlash -> flash03 -> 0:0x60270000:0x1C0000:D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ReadFlash\hello_flash.img
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> ReadFlash -> flash04 -> 0:0x60560000:0x280000:D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ReadFlash\cat1_UIS8915DM_BB_RF_SS_NoVolte_cus.img
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> ReadFlash -> flash05 -> 0:0xFE000006:0x53595346:D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ReadFlash\_only.bin
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> ReadFlash -> flash06 -> 0:0xFE000001:0x0:D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ReadFlash\_only.bin
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> ReadFlash -> flash07 -> 0:0xFE000003:0x20000:D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ReadFlash\cat1_UIS8915DM_BB_RF_SS_NoVolte_cus_nvitem.bin
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> ReadFlash -> flash08 -> 0:0xFE000004:0x0:D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ReadFlash\cat1_UIS8915DM_BB_RF_SS_NoVolte_cus_prepack.cpio
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> ReadFlash -> flash09 -> 0:0xFE000002:0x100:D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ReadFlash\miscdata.bin
+[2026-08-03 15:29:31:644][Config      ][2 - Warning    ] Section ( ResearchDownload.ini -> STINGRAY ) is an empty.
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> Selinux -> Data -> Selinux:-
+[2026-08-03 15:29:31:644][Config      ][3 - Information] Get Section: ResearchDownload.ini -> UsageStatistics -> Exsrv -> \\10.0.3.44\phone
+[2026-08-03 15:29:31:645][Config      ][2 - Warning    ] Section ( ResearchDownload.ini -> WriteFlash ) is an empty.
+[2026-08-03 15:29:31:645][Config      ][2 - Warning    ] Section ( ResearchDownload.ini -> Customization ) is an empty.
+[2026-08-03 15:29:31:645][Config      ][3 - Information] Get Section: ResearchDownload.ini -> PreloadDLImage -> Enable -> 0
+[2026-08-03 15:29:31:645][Config      ][3 - Information] Get Section: ResearchDownload.ini -> PreloadDLImage -> FileID -> My_preload
+[2026-08-03 15:29:31:645][Config      ][3 - Information] Get Section: ResearchDownload.ini -> PreloadDLImage -> ImageNameBase -> my_preload
+[2026-08-03 15:29:31:645][Config      ][3 - Information] Get Section: ResearchDownload.ini -> IQDynamicData -> Enable -> 0
+[2026-08-03 15:29:31:645][Config      ][3 - Information] Default String: ResearchDownload.ini -> GUI -> EraseAllFlashMsg -> You have selected [Erase All Flash], this will clear all data stored in the flash including calibration.IMEI will be erased too and need to be rewritten,If continue?
+[2026-08-03 15:29:31:645][Config      ][3 - Information] Default String: ResearchDownload.ini -> GUI -> EraseIMEIMsg -> You have not selected to backup IMEI item,IMEI will be erased and need to be rewritten,If continue?
+[2026-08-03 15:29:31:645][Config      ][3 - Information] Default String: ResearchDownload.ini -> GUI -> ShowChinese -> 1
+[2026-08-03 15:29:31:645][Config      ][3 - Information] Default String: ResearchDownload.ini -> GUI -> DeleteTmpDir -> 1
+[2026-08-03 15:29:31:645][Config      ][3 - Information] Default String: ResearchDownload.ini -> GUI -> KeepPacNVState -> 0
+[2026-08-03 15:29:31:645][Config      ][3 - Information] Default String: ResearchDownload.ini -> GUI -> Manual -> 0
+[2026-08-03 15:29:31:645][Config      ][3 - Information] Default String: ResearchDownload.ini -> GUI -> ShowMcpTypePage -> 0
+[2026-08-03 15:29:31:645][Config      ][3 - Information] Default String: ResearchDownload.ini -> SN -> FixedSN -> 
+[2026-08-03 15:29:31:645][Config      ][3 - Information] Default String: ResearchDownload.ini -> SN -> FixedSN2 -> 
+[2026-08-03 15:29:31:645][Config      ][3 - Information] Default String: ResearchDownload.ini -> SN -> WriteSN2Enable -> 0
+[2026-08-03 15:29:31:645][Config      ][3 - Information] Default String: ResearchDownload.ini -> Options -> SendFlag -> 0
+[2026-08-03 15:29:31:645][Config      ][3 - Information] Default String: ResearchDownload.ini -> Options -> WriteTimestamp -> 0
+[2026-08-03 15:29:31:645][Config      ][3 - Information] Default String: ResearchDownload.ini -> Options -> SupportCU -> 0
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Default String: ResearchDownload.ini -> Options -> SupportCheckRoot -> 0
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Default String: ResearchDownload.ini -> Options -> SupportInproduction -> 0
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Default String: ResearchDownload.ini -> Options -> BackupProdnvMiscData -> 0
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Default String: ResearchDownload.ini -> Options -> SharkNandOption -> 0
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Default String: ResearchDownload.ini -> Download_Packet -> Floader -> 
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Get String: ResearchDownload.ini -> Download_Packet -> Packet -> D:\River\DTU_FCT\Info\Configuration\PAC_File_path\RX01_N58_App_v1.0.0.pac
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Default String: ResearchDownload.ini -> Settings -> SkipFileID -> 
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Default String: ResearchDownload.ini -> Settings -> MustFileID -> 
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Default String: ResearchDownload.ini -> Settings -> RemoveImgStoreInterval -> 7
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Default String: ResearchDownload.ini -> Settings -> CheckCali -> 0
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Default String: ResearchDownload.ini -> Settings -> CheckStation -> 
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Default String: ResearchDownload.ini -> NV -> LangNVItemID -> 405
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Default String: ResearchDownload.ini -> NV -> PrintNVItem -> 
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Default String: ResearchDownload.ini -> UsageStatistics -> Insrv -> 
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Get String: ResearchDownload.ini -> Debug -> Data -> enable:level=-
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Get String: ResearchDownload.ini -> Comparison -> Enable -> 0
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Get String: ResearchDownload.ini -> Comparison -> Policy -> 1
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Get String: ResearchDownload.ini -> Comparison -> Program -> C:\Program Files (x86)\Beyond Compare 3\BCompare.exe
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Default String: ResearchDownload.ini -> Customization -> CU -> 
+[2026-08-03 15:29:31:646][Config      ][3 - Information] Default String: ResearchDownload.ini -> Customization -> ChangeCU -> 0
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Default String: ResearchDownload.ini -> Customization -> CheckRoot -> 0
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Default String: ResearchDownload.ini -> Customization -> BadFlashRate -> 0
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Default String: ResearchDownload.ini -> Customization -> CheckBadFlashRate -> 0
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Default String: ResearchDownload.ini -> Customization -> Inproduction -> 0
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Default String: ResearchDownload.ini -> IQDynamicData -> Offset -> -1
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Default String: ResearchDownload.ini -> IQDynamicData -> Value -> 
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> CheckBaudRom -> 20
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> Check Baud -> 1000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> HostConnect -> 1000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> HostDownload -> 10000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> HostExcute -> 2000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> Connect -> 3000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> Erase Flash -> 3600000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> Read Flash -> 10000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> StartData -> 30000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> Download -> 120000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> Excute -> 1000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> ExecNandInit -> 60000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> Repartition -> 60000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> EndData -> 60000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> ReadFlashType -> 1000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> ReadSectorSize -> 1000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> KeepCharge -> 3000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> SendExtTable -> 1000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> ReadFlashUID -> 1000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> ReadSoftSimEID -> 2000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> ChangeBaud -> 2000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> StartRead -> 20000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> MidstRead -> 20000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> EndRead -> 20000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> DDRCheck -> 30000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> SelfRefresh -> 40000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> ReadNandBlockInfo -> 3000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> SetFirstMode -> 1000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> CheckDUT -> 500
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> EnableRawData -> 20000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> FlushData -> 20000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> MidstRawStart -> 20000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> SetRandomData -> 20000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> ReadPartitionInfo -> 1000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> DumpUbootLog -> 5000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> ReadVpac -> 1000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Timeout -> Watchdog -> 1000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> OperationInterval -> Connect -> 0
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Check Baud Times -> CheckBaud -> 100
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Check Baud Times -> FDL -> 20
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Check Baud Times -> ReadSN -> 10
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Check Baud Times -> HostConnect -> 2000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> CheckDUT -> CheckTimes -> 0
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> CheckDUT -> WaitTimeForNextChip -> 2000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> CheckBaudSetting -> 7ENumPerTime -> 1
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> NVItem -> ItemID -> 0x8
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> Log -> SerialDDRLogEnable -> 0
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> SecondEnumPort -> EnumPortTimeOut -> 60000
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMTimeOut.ini -> SecondEnumPort -> EnumPortErrorMsg -> The second enumemration port timeout
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMFileType.ini -> CheckBaud -> 1 -> CheckBaudRom
+[2026-08-03 15:29:31:647][Config      ][3 - Information] Get Section: BMFileType.ini -> CheckBaud -> 2 -> GetCheckBaudCrcType
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> FDL1 -> 1 -> Connect2
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> FDL1 -> 2 -> Download
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> FDL1 -> 3 -> Excute
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> FDL2 -> 1 -> Connect2
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> FDL2 -> 2 -> ChangeBaud
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> FDL2 -> 3 -> Download
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> FDL2 -> 4 -> ExecNandInit
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> HOST_FDL -> 1 -> HostConnect
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> HOST_FDL -> 2 -> HostDownload
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> HOST_FDL -> 3 -> HostExcute
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> HOST_FDL -> 4 -> ResetCRC
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> HOST_FDL -> 5 -> Connect
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> HOST_FDL -> 6 -> ChangeBaud
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> FDL -> 1 -> SetCRC
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> FDL -> 2 -> ConnectRom
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> FDL -> 3 -> Download
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> FDL -> 4 -> Excute
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> FDL -> 5 -> ResetCRC
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> FDL -> 6 -> Connect
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> FDL -> 7 -> ChangeBaud
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> Init -> 1 -> ResetCRC
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> Init -> 2 -> Connect
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> NAND_FDL -> 1 -> Download
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> NAND_FDL -> 2 -> ExecNandInit
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> NV -> 1 -> ReadFlash
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> NV -> 2 -> Download
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> NV_NAND -> 1 -> ReadFlash
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> NV_NAND -> 2 -> Download
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> NV_COMM -> 1 -> ReadFlashByID
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> NV_COMM -> 2 -> DownloadByID
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> ReadFlash -> 1 -> ReadFlash
+[2026-08-03 15:29:31:648][Config      ][3 - Information] Get Section: BMFileType.ini -> ReadFlash2 -> 1 -> ReadFlashByID
