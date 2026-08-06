@@ -1,0 +1,287 @@
+[2026-08-06 09:45:06:354][DLFWTask    ][3 - Information] There is  27% of memory in use.
+[2026-08-06 09:45:06:354][DLFWTask    ][3 - Information] Physical memory : total 32523.000MB ; free 23714.000MB ;
+[2026-08-06 09:45:06:354][DLFWTask    ][3 - Information] Virtual memory : total 4095.000MB ; free 3991.000MB ;
+[2026-08-06 09:45:06:354][DLFWTask    ][3 - Information] There are 24.664 total MB of physical memory used by the current process.
+[2026-08-06 09:45:06:354][DLFWTask    ][3 - Information] TaskManager : 0x5985E9A0; TaskImpl : 0x15BC8C8; Callback : 0x12FF838;
+[2026-08-06 09:45:06:354][DLFWTask    ][3 - Information] SyncTaskParams
+[2026-08-06 09:45:06:364][DLFramework ][3 - Information] Create Callback Object.
+[2026-08-06 09:45:06:364][DLFramework ][3 - Information] AuthenticationLib.dll, FileVersion:27. 23. 42. 03, Vendor: UNISOC TECHNOLOGIES INC.
+[2026-08-06 09:45:06:366][DLFramework ][3 - Information] FlashOperationLib.dll, FileVersion:27. 23. 42. 03, Vendor: UNISOC TECHNOLOGIES INC.
+[2026-08-06 09:45:06:366][DLFramework ][3 - Information] MesLib.dll, FileVersion:27. 23. 42. 03, Vendor: UNISOC TECHNOLOGIES INC.
+[2026-08-06 09:45:06:367][DLFramework ][3 - Information] Create Authentication Object.
+[2026-08-06 09:45:06:367][DLFramework ][3 - Information] Create FlashOperation Object.
+[2026-08-06 09:45:06:367][DLFramework ][3 - Information] Create Mes Object.
+[2026-08-06 09:45:06:367][UnisocMES   ][3 - Information] [ ENTER ] -> Startup( )
+[2026-08-06 09:45:06:371][UnisocMES   ][3 - Information] [ LEAVE ] <- Startup( )
+[2026-08-06 09:45:06:371][DLFramework ][3 - Information] Create BMAFramework object.
+[2026-08-06 09:45:06:371][DLFramework ][3 - Information] Create CBMOprObserver.
+[2026-08-06 09:45:06:371][DLFramework ][3 - Information] [ ENTER ] -> Startup( )
+[2026-08-06 09:45:06:371][Authorize   ][3 - Information] [ ENTER ] -> GetSecureKey( )
+[2026-08-06 09:45:06:371][Authorize   ][3 - Information] [ LEAVE ] <- GetSecureKey( )
+[2026-08-06 09:45:06:372][BMAFrame    ][3 - Information] BMAF_SetProperty( BMAF_TIME_WAIT_FOR_NEXT_CHIP : 0 )
+[2026-08-06 09:45:06:372][BMAFrame    ][3 - Information] BMAF_SetProperty( BMAF_NAND_REPARTION_FLAG : 1 )
+[2026-08-06 09:45:06:372][BMAFrame    ][3 - Information] BMAF_SetProperty( BMAF_SPECIAL_CONFIG_FILE : D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ImageFiles\_DLFiles_4A30_710893A_0\UIX8910_MODEM.xml )
+[2026-08-06 09:45:06:372][BMAFrame    ][3 - Information] BMAF_SetProperty( BMAF_BMA_CONFIG : D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\App\BMAConfig.xml )
+[2026-08-06 09:45:06:372][BMAFrame    ][3 - Information] BMAF_SetProperty( BMAF_ENABLE_PORT_SECOND_ENUM : 0 )
+[2026-08-06 09:45:06:372][BMAFrame    ][3 - Information] BMAF_SetProperty( BMAF_POWER_OFF_DEVICE : 1 )
+[2026-08-06 09:45:06:372][BMAFrame    ][3 - Information] BMAF_SetProperty( BMAF_UART_MODE_DOWNLOAD : 0 )
+[2026-08-06 09:45:06:372][BMAFrame    ][3 - Information] BMAF_SetProperty( BMAF_AES_KEY : 0x15D8710 )
+[2026-08-06 09:45:06:372][BMAFrame    ][3 - Information] BMAF_SetProperty( BMAF_RSA2048_PRIVATE_KEY : 0x4E4A6C8 )
+[2026-08-06 09:45:06:372][BMAFrame    ][3 - Information] BMAF_SetProperty( BMAF_CHECK_SPARSE_TO_RAW : 0 )
+[2026-08-06 09:45:06:372][BMAFrame    ][3 - Information] BMAF_SubscribeObserver( BMOprObserver: 0x4E4A430 )
+[2026-08-06 09:45:06:372][BMAFrame    ][3 - Information] [ ENTER ] -> BMAF_Startup( )
+[2026-08-06 09:45:06:372][BMAFrame    ][3 - Information] RegBootModeObj( )
+[2026-08-06 09:45:06:372][BMAFrame    ][3 - Information] RegBMPObserver( )
+[2026-08-06 09:45:06:372][BMPlatform1 ][3 - Information] SubscribeOperationObserver( IBMOprObserver: 0x4E4A430 )
+[2026-08-06 09:45:06:372][BMAFrame    ][3 - Information] [ ENTER ] -> InitBMFiles( )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ ENTER ] -> OnFilePrepare( Product: PAC_UIX8910_MODEM )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] BMFileInfo( FileID: HOST_FDL; FileType: HOST_FDL; FileName: D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ImageFiles\_DLFiles_4A30_710893A_0\fdl1.sign.img )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFilePrepare( )
+[2026-08-06 09:45:06:373][BMAFrame    ][3 - Information] BMFileInfoDefault( FileID: HOST_FDL; FileType: HOST_FDL  )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ ENTER ] -> OnFilePrepare( Product: PAC_UIX8910_MODEM )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] BMFileInfo( FileID: FDL2; FileType: FDL2; FileName: D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ImageFiles\_DLFiles_4A30_710893A_0\fdl2.sign.img )
+[2026-08-06 09:45:06:373][FlashOperat ][3 - Information] [ ENTER ] -> EnableOperation( )
+[2026-08-06 09:45:06:373][FlashOperat ][3 - Information] [ LEAVE ] <- EnableOperation( )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFilePrepare( )
+[2026-08-06 09:45:06:373][BMAFrame    ][3 - Information] BMFileInfoAdd( FileID: FDL2; FileType: FDL2  )
+[2026-08-06 09:45:06:373][BMAFrame    ][3 - Information] BMFileInfoAdd( FileID: _BKF_NV; FileType: ReadFlash  )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ ENTER ] -> OnFilePrepare( Product: PAC_UIX8910_MODEM )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] BMFileInfo( FileID: BOOTLOADER; FileType: CODE; FileName: D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ImageFiles\_DLFiles_4A30_710893A_0\boot.sign.img )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFilePrepare( )
+[2026-08-06 09:45:06:373][BMAFrame    ][3 - Information] BMFileInfoDefault( FileID: BOOTLOADER; FileType: CODE  )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ ENTER ] -> OnFilePrepare( Product: PAC_UIX8910_MODEM )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] BMFileInfo( FileID: AP; FileType: CODE; FileName: D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ImageFiles\_DLFiles_4A30_710893A_0\Customer_cat1bis_novolte.sign.img )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFilePrepare( )
+[2026-08-06 09:45:06:373][BMAFrame    ][3 - Information] BMFileInfoDefault( FileID: AP; FileType: CODE  )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ ENTER ] -> OnFilePrepare( Product: PAC_UIX8910_MODEM )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] BMFileInfo( FileID: APPIMG; FileType: CODE; FileName: D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ImageFiles\_DLFiles_4A30_710893A_0\hello_flash.img )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFilePrepare( )
+[2026-08-06 09:45:06:373][BMAFrame    ][3 - Information] BMFileInfoDefault( FileID: APPIMG; FileType: CODE  )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ ENTER ] -> OnFilePrepare( Product: PAC_UIX8910_MODEM )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] BMFileInfo( FileID: PS; FileType: CODE; FileName: D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ImageFiles\_DLFiles_4A30_710893A_0\cat1_UIS8915DM_BB_RF_SS_NoVolte_cus.img )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFilePrepare( )
+[2026-08-06 09:45:06:373][BMAFrame    ][3 - Information] BMFileInfoDefault( FileID: PS; FileType: CODE  )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ ENTER ] -> OnFilePrepare( Product: PAC_UIX8910_MODEM )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] BMFileInfo( FileID: FLASH; FileType: EraseFlash; FileName:  )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFilePrepare( )
+[2026-08-06 09:45:06:373][BMAFrame    ][3 - Information] BMFileInfoDefault( FileID: FLASH; FileType: EraseFlash  )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ ENTER ] -> OnFilePrepare( Product: PAC_UIX8910_MODEM )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] BMFileInfo( FileID: NV; FileType: NV; FileName: D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ImageFiles\_DLFiles_4A30_710893A_0\cat1_UIS8915DM_BB_RF_SS_NoVolte_cus_nvitem.bin )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFilePrepare( )
+[2026-08-06 09:45:06:373][BMAFrame    ][3 - Information] BMFileInfoAdd( FileID: NV; FileType: CODE  )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ ENTER ] -> OnFilePrepare( Product: PAC_UIX8910_MODEM )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] BMFileInfo( FileID: PREPACK; FileType: CODE; FileName: D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ImageFiles\_DLFiles_4A30_710893A_0\cat1_UIS8915DM_BB_RF_SS_NoVolte_cus_prepack.cpio )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFilePrepare( )
+[2026-08-06 09:45:06:373][BMAFrame    ][3 - Information] BMFileInfoDefault( FileID: PREPACK; FileType: CODE  )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ ENTER ] -> OnFilePrepare( Product: PAC_UIX8910_MODEM )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] BMFileInfo( FileID: PhaseCheck; FileType: CODE; FileName:  )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFilePrepare( )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ ENTER ] -> OnFilePrepare( Product: PAC_UIX8910_MODEM )
+[2026-08-06 09:45:06:373][FlashOperat ][3 - Information] [ ENTER ] -> EnableOperation( )
+[2026-08-06 09:45:06:373][FlashOperat ][3 - Information] [ LEAVE ] <- EnableOperation( )
+[2026-08-06 09:45:06:373][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFilePrepare( )
+[2026-08-06 09:45:06:373][BMAFrame    ][3 - Information] BMFileInfoAdd( FileID: _POWEROFF_; FileType: PowerOff  )
+[2026-08-06 09:45:06:373][BMAFrame    ][3 - Information] [ LEAVE ] <- InitBMFiles( )
+[2026-08-06 09:45:06:373][BMAFrame    ][3 - Information] InitBootFileInfo( )
+[2026-08-06 09:45:06:374][BMAFrame    ][3 - Information] LoadBMFileInfo( FileID: HOST_FDL            ; CodeSize: 0x00000034E0; CodeOffset: 0x0000000000; FileName: D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ImageFiles\_DLFiles_4A30_710893A_0\fdl1.sign.img )
+[2026-08-06 09:45:06:374][BMAFrame    ][3 - Information] LoadBMFileInfo( FileID: FDL2                ; CodeSize: 0x0000015E60; CodeOffset: 0x0000000000; FileName: D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ImageFiles\_DLFiles_4A30_710893A_0\fdl2.sign.img )
+[2026-08-06 09:45:06:374][BMAFrame    ][3 - Information] LoadBMFileInfo( FileID: BOOTLOADER          ; CodeSize: 0x000000BF40; CodeOffset: 0x0000000000; FileName: D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ImageFiles\_DLFiles_4A30_710893A_0\boot.sign.img )
+[2026-08-06 09:45:06:374][BMAFrame    ][3 - Information] LoadBMFileInfo( FileID: AP                  ; CodeSize: 0x000023E120; CodeOffset: 0x0000000000; FileName: D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ImageFiles\_DLFiles_4A30_710893A_0\Customer_cat1bis_novolte.sign.img )
+[2026-08-06 09:45:06:374][BMAFrame    ][3 - Information] LoadBMFileInfo( FileID: APPIMG              ; CodeSize: 0x0000023A00; CodeOffset: 0x0000000000; FileName: D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ImageFiles\_DLFiles_4A30_710893A_0\hello_flash.img )
+[2026-08-06 09:45:06:374][BMAFrame    ][3 - Information] LoadBMFileInfo( FileID: PS                  ; CodeSize: 0x0000280000; CodeOffset: 0x0000000000; FileName: D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ImageFiles\_DLFiles_4A30_710893A_0\cat1_UIS8915DM_BB_RF_SS_NoVolte_cus.img )
+[2026-08-06 09:45:06:374][BMAFrame    ][3 - Information] LoadBMFileInfo( FileID: NV                  ; CodeSize: 0x0000020000; CodeOffset: 0x0000000000; FileName: D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ImageFiles\_DLFiles_4A30_710893A_0\cat1_UIS8915DM_BB_RF_SS_NoVolte_cus_nvitem.bin )
+[2026-08-06 09:45:06:374][BMAFrame    ][3 - Information] LoadBMFileInfo( FileID: PREPACK             ; CodeSize: 0x000000006A; CodeOffset: 0x0000000000; FileName: D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\ImageFiles\_DLFiles_4A30_710893A_0\cat1_UIS8915DM_BB_RF_SS_NoVolte_cus_prepack.cpio )
+[2026-08-06 09:45:06:374][BMAFrame    ][3 - Information] [ LEAVE ] <- BMAF_Startup( )
+[2026-08-06 09:45:06:374][BMAFrame    ][3 - Information] BMAF_GetBootModeObjInfo( BootModeObj: 0x15D8740 )
+[2026-08-06 09:45:06:374][DLFramework ][3 - Information] [ LEAVE ] <- Startup( )
+[2026-08-06 09:45:06:374][DLFramework ][3 - Information] SetProperty( DLFW_ATTR_LOG_PATH, D:\River\DTU_FCT\EXEs\RESEARCHDOWNLOAD_R22.19.1701_DUT1\Bin\Log\2026_08_06\ResearchDownload-2026_08_06-09_45_05_435 )
+[2026-08-06 09:45:06:374][DLFramework ][3 - Information] DLFramework.dll, FileVersion:27. 23. 42. 03, Vendor: UNISOC TECHNOLOGIES INC.
+[2026-08-06 09:45:06:374][DLFramework ][3 - Information] ResearchDownload Starting ...
+[2026-08-06 09:45:06:374][DLFramework ][3 - Information] [ ENTER ] -> StartOnePortWork( Port: 31 )
+[2026-08-06 09:45:06:374][BMAFrame    ][3 - Information] [ ENTER ] -> BMAF_StartOneWork( )
+[2026-08-06 09:45:06:374][BMPlatform1 ][3 - Information] [ ENTER ] -> StartBootModeOperation( BMFileInfo: 0x58B7800, FileCount: 11 )
+[2026-08-06 09:45:06:374][BMPlatform1 ][3 - Information] [ LEAVE ] <- StartBootModeOperation( )
+[2026-08-06 09:45:06:374][BMAFrame    ][3 - Information] [ LEAVE ] <- BMAF_StartOneWork( )
+[2026-08-06 09:45:06:374][DLFramework ][3 - Information] [ LEAVE ] <- StartOnePortWork( )
+[2026-08-06 09:45:06:375][BMPlatform1 ][3 - Information] [ ENTER ] -> BMThreadFunc( BMThread: 0x560 )
+[2026-08-06 09:45:06:375][BMPlatform3 ][3 - Information] CreateChannel( Channel: 0x3527370 )
+[2026-08-06 09:45:06:375][BMPlatform3 ][3 - Information] [ ENTER ] -> RecvThreadFunc( 0x534 )
+[2026-08-06 09:45:06:375][BMPlatform3 ][3 - Information] [ ENTER ] -> ConnectChannel( Port: 31, BaudRate: 921600, ChannelType:0 )
+[2026-08-06 09:45:06:375][BMPlatform3 ][3 - Information] Default Baudrate: 921600, Config Baudrate: 115200
+[2026-08-06 09:45:06:376][BMPlatform3 ][3 - Information] Open Channel Succeed.
+[2026-08-06 09:45:06:376][BMPlatform3 ][3 - Information] [ LEAVE ] <- ConnectChannel( )
+[2026-08-06 09:45:06:376][BMPlatform3 ][3 - Information] Diag CMD Size(64) for DataLog.
+[2026-08-06 09:45:06:376][BMOprObserv ][3 - Information] [ ENTER ] -> OnStart( Result: 0 )
+[2026-08-06 09:45:06:376][BMOprObserv ][3 - Information] [ LEAVE ] <- OnStart( )
+[2026-08-06 09:45:06:376][BMOprObserv ][3 - Information] [ ENTER ] -> OnFileOprStart( FileID: HOST_FDL; FileType: HOST_FDL )
+[2026-08-06 09:45:06:376][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFileOprStart( )
+[2026-08-06 09:45:06:376][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationStart( FileID: HOST_FDL; FileType: HOST_FDL; OperationType: HostConnect  )
+[2026-08-06 09:45:06:376][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationStart( )
+[2026-08-06 09:45:06:376][BMPlatform2 ][3 - Information] [ ENTER ] -> HostConnect( FileSize: 0x34E0, FileOffset: 0x0 )
+[2026-08-06 09:45:06:376][BMPlatform2 ][3 - Information] [ LEAVE ] <- HostConnect( )
+[2026-08-06 09:45:06:376][BMPlatform2 ][3 - Information] Check Baud Times( HostConnect ): 2000; TimeOut( HostConnect ): 1000;
+[2026-08-06 09:45:06:376][BMPlatform3 ][3 - Information] Start to write host data.
+[2026-08-06 09:45:06:376][BMPlatform3 ][3 - Information] Write host data end.
+[2026-08-06 09:45:06:378][BMPlatform3 ][3 - Information] Read host ack end.
+[2026-08-06 09:45:06:378][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationEnd( FileID: HOST_FDL; FileType: HOST_FDL; OperationType: HostConnect; Result: 0 )
+[2026-08-06 09:45:06:378][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationEnd( )
+[2026-08-06 09:45:06:378][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationStart( FileID: HOST_FDL; FileType: HOST_FDL; OperationType: HostDownload  )
+[2026-08-06 09:45:06:378][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationStart( )
+[2026-08-06 09:45:06:379][BMPlatform2 ][3 - Information] [ ENTER ] -> HostDownload( FileSize: 0x34E0, FileOffset: 0x0 )
+[2026-08-06 09:45:06:379][BMPlatform2 ][3 - Information] [ LEAVE ] <- HostDownload( )
+[2026-08-06 09:45:06:379][BMPlatform3 ][3 - Information] Start to write host data.
+[2026-08-06 09:45:06:379][BMPlatform3 ][3 - Information] Write host data end.
+[2026-08-06 09:45:06:382][BMPlatform3 ][3 - Information] Read host ack end.
+[2026-08-06 09:45:06:382][BMPlatform3 ][3 - Information] Start to write host data.
+[2026-08-06 09:45:06:384][BMPlatform3 ][3 - Information] Write host data end.
+[2026-08-06 09:45:06:384][BMPlatform3 ][3 - Information] Read host ack end.
+[2026-08-06 09:45:06:384][BMPlatform3 ][3 - Information] Start to write host data.
+[2026-08-06 09:45:06:386][BMPlatform3 ][3 - Information] Write host data end.
+[2026-08-06 09:45:06:386][BMPlatform3 ][3 - Information] Read host ack end.
+[2026-08-06 09:45:06:386][BMPlatform3 ][3 - Information] Start to write host data.
+[2026-08-06 09:45:06:388][BMPlatform3 ][3 - Information] Write host data end.
+[2026-08-06 09:45:06:388][BMPlatform3 ][3 - Information] Read host ack end.
+[2026-08-06 09:45:06:388][BMPlatform3 ][3 - Information] Start to write host data.
+[2026-08-06 09:45:06:391][BMPlatform3 ][3 - Information] Write host data end.
+[2026-08-06 09:45:06:391][BMPlatform3 ][3 - Information] Read host ack end.
+[2026-08-06 09:45:06:391][BMPlatform3 ][3 - Information] Start to write host data.
+[2026-08-06 09:45:06:393][BMPlatform3 ][3 - Information] Write host data end.
+[2026-08-06 09:45:06:393][BMPlatform3 ][3 - Information] Read host ack end.
+[2026-08-06 09:45:06:393][BMPlatform3 ][3 - Information] Start to write host data.
+[2026-08-06 09:45:06:395][BMPlatform3 ][3 - Information] Write host data end.
+[2026-08-06 09:45:06:395][BMPlatform3 ][3 - Information] Read host ack end.
+[2026-08-06 09:45:06:395][BMPlatform3 ][3 - Information] Start to write host data.
+[2026-08-06 09:45:06:396][BMPlatform3 ][3 - Information] Write host data end.
+[2026-08-06 09:45:06:396][BMPlatform3 ][3 - Information] Read host ack end.
+[2026-08-06 09:45:06:396][BMPlatform3 ][3 - Information] HostDownloadEnd( Timeout: 10000)
+[2026-08-06 09:45:06:396][BMPlatform3 ][3 - Information] Start to write host data.
+[2026-08-06 09:45:06:397][BMPlatform3 ][3 - Information] Write host data end.
+[2026-08-06 09:45:06:397][BMPlatform3 ][3 - Information] Read host ack end.
+[2026-08-06 09:45:06:397][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationEnd( FileID: HOST_FDL; FileType: HOST_FDL; OperationType: HostDownload; Result: 0 )
+[2026-08-06 09:45:06:397][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationEnd( )
+[2026-08-06 09:45:06:397][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationStart( FileID: HOST_FDL; FileType: HOST_FDL; OperationType: HostExcute  )
+[2026-08-06 09:45:06:397][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationStart( )
+[2026-08-06 09:45:06:397][BMPlatform2 ][3 - Information] [ ENTER ] -> HostExcute( FileSize: 0x34E0, FileOffset: 0x0 )
+[2026-08-06 09:45:06:397][BMPlatform2 ][3 - Information] [ LEAVE ] <- HostExcute( )
+[2026-08-06 09:45:06:397][BMPlatform3 ][3 - Information] HostExcute( Timeout: 2000)
+[2026-08-06 09:45:06:397][BMPlatform3 ][3 - Information] Start to write host data.
+[2026-08-06 09:45:06:397][BMPlatform3 ][3 - Information] Write host data end.
+[2026-08-06 09:45:08:398][BMPlatform3 ][3 - Information] Read host ack end.
+[2026-08-06 09:45:08:398][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationEnd( FileID: HOST_FDL; FileType: HOST_FDL; OperationType: HostExcute; Result: 0 )
+[2026-08-06 09:45:08:398][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationEnd( )
+[2026-08-06 09:45:08:398][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationStart( FileID: HOST_FDL; FileType: HOST_FDL; OperationType: ResetCRC  )
+[2026-08-06 09:45:08:398][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationStart( )
+[2026-08-06 09:45:08:398][BMPlatform2 ][3 - Information] [ ENTER ] -> ResetCRC( FileSize: 0x34E0, FileOffset: 0x0 )
+[2026-08-06 09:45:08:398][BMPlatform2 ][3 - Information] [ LEAVE ] <- ResetCRC( )
+[2026-08-06 09:45:08:398][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationEnd( FileID: HOST_FDL; FileType: HOST_FDL; OperationType: ResetCRC; Result: 0 )
+[2026-08-06 09:45:08:398][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationEnd( )
+[2026-08-06 09:45:08:398][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationStart( FileID: HOST_FDL; FileType: HOST_FDL; OperationType: Connect  )
+[2026-08-06 09:45:08:398][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationStart( )
+[2026-08-06 09:45:08:398][BMPlatform2 ][3 - Information] [ ENTER ] -> Connect( FileSize: 0x34E0, FileOffset: 0x0 )
+[2026-08-06 09:45:08:398][BMPlatform2 ][3 - Information] [ LEAVE ] <- Connect( )
+[2026-08-06 09:45:08:398][BMPlatform2 ][3 - Information] Check Baud Times( HOST_FDL ): 3; TimeOut( Check Baud ): 1000;
+[2026-08-06 09:45:08:398][BMPlatform3 ][3 - Information] Checkbaud Append Result: bCrcError(0), bNoTail(0), bInvalidLen(0)
+[2026-08-06 09:45:08:398][BMPlatform3 ][3 - Information] CheckBaudRate( CMD: 0x7E ( BSL_CMD_CHECK_BAUD ), Timeout: 1000 ): Success.
+[2026-08-06 09:45:08:398][BMPlatform3 ][3 - Information] Connect( CMD: 0x0 ( BSL_CMD_CONNECT ), Timeout: 3000 ): Success.
+[2026-08-06 09:45:08:398][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationEnd( FileID: HOST_FDL; FileType: HOST_FDL; OperationType: Connect; Result: 0 )
+[2026-08-06 09:45:08:398][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationEnd( )
+[2026-08-06 09:45:08:399][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationStart( FileID: HOST_FDL; FileType: HOST_FDL; OperationType: ChangeBaud  )
+[2026-08-06 09:45:08:399][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationStart( )
+[2026-08-06 09:45:08:399][BMPlatform2 ][3 - Information] [ ENTER ] -> ChangeBaud( FileSize: 0x34E0, FileOffset: 0x0 )
+[2026-08-06 09:45:08:399][BMPlatform2 ][3 - Information] [ LEAVE ] <- ChangeBaud( )
+[2026-08-06 09:45:08:900][BMPlatform3 ][3 - Information] ChangeBaudrate( CMD: 0x9 ( BSL_CMD_CHANGE_BAUD ), Baudrate: 115200, Timeout: 2000 ): Success.
+[2026-08-06 09:45:08:900][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationEnd( FileID: HOST_FDL; FileType: HOST_FDL; OperationType: ChangeBaud; Result: 0 )
+[2026-08-06 09:45:08:900][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationEnd( )
+[2026-08-06 09:45:08:900][BMOprObserv ][3 - Information] [ ENTER ] -> OnFileOprEnd( FileID: HOST_FDL; FileType: HOST_FDL; Result: 0 )
+[2026-08-06 09:45:08:900][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFileOprEnd( )
+[2026-08-06 09:45:08:900][BMOprObserv ][3 - Information] [ ENTER ] -> OnFileOprStart( FileID: FDL2; FileType: FDL2 )
+[2026-08-06 09:45:08:900][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFileOprStart( )
+[2026-08-06 09:45:08:900][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationStart( FileID: FDL2; FileType: FDL2; OperationType: Connect2  )
+[2026-08-06 09:45:08:900][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationStart( )
+[2026-08-06 09:45:08:900][BMPlatform2 ][3 - Information] [ ENTER ] -> Connect2( FileSize: 0x15E60, FileOffset: 0x0 )
+[2026-08-06 09:45:08:900][BMPlatform2 ][3 - Information] [ LEAVE ] <- Connect2( )
+[2026-08-06 09:45:08:900][BMPlatform3 ][3 - Information] Connect( CMD: 0x0 ( BSL_CMD_CONNECT ), Timeout: 3000 ): Success.
+[2026-08-06 09:45:08:900][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationEnd( FileID: FDL2; FileType: FDL2; OperationType: Connect2; Result: 0 )
+[2026-08-06 09:45:08:900][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationEnd( )
+[2026-08-06 09:45:08:900][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationStart( FileID: FDL2; FileType: FDL2; OperationType: ChangeBaud  )
+[2026-08-06 09:45:08:900][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationStart( )
+[2026-08-06 09:45:08:900][BMPlatform2 ][3 - Information] [ ENTER ] -> ChangeBaud( FileSize: 0x15E60, FileOffset: 0x0 )
+[2026-08-06 09:45:08:900][BMPlatform2 ][3 - Information] [ LEAVE ] <- ChangeBaud( )
+[2026-08-06 09:45:08:900][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationEnd( FileID: FDL2; FileType: FDL2; OperationType: ChangeBaud; Result: 0 )
+[2026-08-06 09:45:08:900][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationEnd( )
+[2026-08-06 09:45:08:900][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationStart( FileID: FDL2; FileType: FDL2; OperationType: Download  )
+[2026-08-06 09:45:08:900][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationStart( )
+[2026-08-06 09:45:08:900][BMPlatform2 ][3 - Information] [ ENTER ] -> Download( FileSize: 0x15E60, FileOffset: 0x0 )
+[2026-08-06 09:45:08:900][BMPlatform2 ][3 - Information] [ LEAVE ] <- Download( )
+[2026-08-06 09:45:08:901][BMPlatform3 ][3 - Information] StartData( CMD: 0x1 ( BSL_CMD_START_DATA ), Base: 0x00810000, Size: 0x00015E60, Timeout: 30000 ): Success.
+[2026-08-06 09:45:09:051][BMPlatform3 ][3 - Information] MidstDataFast( CMD: 0x2 ( BSL_CMD_MIDST_DATA ), Total: 0x00015E60, Timeout: 120000  ): Success.
+[2026-08-06 09:45:09:054][BMPlatform3 ][3 - Information] EndData( CMD: 0x3 ( BSL_CMD_END_DATA ), Timeout: 60000 ): Success.
+[2026-08-06 09:45:09:054][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationEnd( FileID: FDL2; FileType: FDL2; OperationType: Download; Result: 0 )
+[2026-08-06 09:45:09:054][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationEnd( )
+[2026-08-06 09:45:09:054][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationStart( FileID: FDL2; FileType: FDL2; OperationType: ExecNandInit  )
+[2026-08-06 09:45:09:054][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationStart( )
+[2026-08-06 09:45:09:054][BMPlatform2 ][3 - Information] [ ENTER ] -> ExecNandInit( FileSize: 0x15E60, FileOffset: 0x0 )
+[2026-08-06 09:45:09:054][BMPlatform2 ][3 - Information] [ LEAVE ] <- ExecNandInit( )
+[2026-08-06 09:45:09:056][BMPlatform3 ][3 - Information] ExcuteDownloadedFile( CMD: 0x4 ( BSL_CMD_EXEC_DATA ), Timeout: 60000 ): Success.
+[2026-08-06 09:45:09:056][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationEnd( FileID: FDL2; FileType: FDL2; OperationType: ExecNandInit; Result: 0 )
+[2026-08-06 09:45:09:056][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationEnd( )
+[2026-08-06 09:45:09:056][BMOprObserv ][3 - Information] [ ENTER ] -> OnFileOprEnd( FileID: FDL2; FileType: FDL2; Result: 0 )
+[2026-08-06 09:45:09:056][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFileOprEnd( )
+[2026-08-06 09:45:09:056][BMOprObserv ][3 - Information] [ ENTER ] -> OnFileOprStart( FileID: _BKF_NV; FileType: ReadFlash )
+[2026-08-06 09:45:09:056][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFileOprStart( )
+[2026-08-06 09:45:09:057][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationStart( FileID: _BKF_NV; FileType: ReadFlash; OperationType: ReadFlash  )
+[2026-08-06 09:45:09:057][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationStart( )
+[2026-08-06 09:45:09:057][BMPlatform2 ][3 - Information] [ ENTER ] -> ReadFlash( FileSize: 0x0, FileOffset: 0x0 )
+[2026-08-06 09:45:09:057][BMPlatform2 ][3 - Information] [ LEAVE ] <- ReadFlash( )
+[2026-08-06 09:45:09:595][BMPlatform3 ][3 - Information] ReadPartitionFlash( CMD: 0x6 ( BSL_CMD_READ_FLASH ), Base: 0xFE000003, Size: 0x00002000, Offset: 0x00020000, Timeout: 0 ): Success.
+[2026-08-06 09:45:09:595][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationEnd( FileID: _BKF_NV; FileType: ReadFlash; OperationType: ReadFlash; Result: 0 )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] CheckNV( Buff: 0x5903310, Size: 131072 )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] CheckNV( Buff: 0x4E6F030, Size: 131072 )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] FindNV( ID: 0x2, Buff: 0x5903310, Offset: 56, Length: 6020  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] FindNV( ID: 0x2, Buff: 0x4E6F030, Offset: 840, Length: 6020  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] FindNV( ID: 0x26D, Buff: 0x5903310, Offset: 6080, Length: 8192  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] FindNV( ID: 0x26D, Buff: 0x4E6F030, Offset: 8916, Length: 8192  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] PreserveNV( ID: 0x26D, OffsetCode: 8916, OffsetRead: 6080, Length: 8192  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] FindNV( ID: 0x26E, Buff: 0x5903310, Offset: 14276, Length: 32768  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] FindNV( ID: 0x26E, Buff: 0x4E6F030, Offset: 17112, Length: 32768  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] PreserveNV( ID: 0x26E, OffsetCode: 17112, OffsetRead: 14276, Length: 32768  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] FindNV( ID: 0x5, Buff: 0x5903310, Offset: 8, Length: 8  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] FindNV( ID: 0x5, Buff: 0x4E6F030, Offset: 792, Length: 8  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] PreserveNV( ID: 0x5, OffsetCode: 792, OffsetRead: 8, Length: 8  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] FindNV( ID: 0x179, Buff: 0x5903310, Offset: 20, Length: 8  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] FindNV( ID: 0x179, Buff: 0x4E6F030, Offset: 804, Length: 8  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] PreserveNV( ID: 0x179, OffsetCode: 804, OffsetRead: 20, Length: 8  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] FindNV( ID: 0x186, Buff: 0x5903310, Offset: 32, Length: 8  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] FindNV( ID: 0x186, Buff: 0x4E6F030, Offset: 816, Length: 8  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] PreserveNV( ID: 0x186, OffsetCode: 816, OffsetRead: 32, Length: 8  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] FindNV( ID: 0x1E4, Buff: 0x5903310, Offset: 44, Length: 8  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] FindNV( ID: 0x1E4, Buff: 0x4E6F030, Offset: 828, Length: 8  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] PreserveNV( ID: 0x1E4, OffsetCode: 828, OffsetRead: 44, Length: 8  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] FindNV( ID: 0x191, Buff: 0x5903310, Offset: 49100, Length: 40  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] FindNV( ID: 0x191, Buff: 0x4E6F030, Offset: 8, Length: 40  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] PreserveNV( ID: 0x191, OffsetCode: 8, OffsetRead: 49100, Length: 40  )
+[2026-08-06 09:45:09:595][NV          ][3 - Information] FindNV( ID: 0x5, Buff: 0x4E6F030, Offset: 792, Length: 8  )
+[2026-08-06 09:45:09:595][DLFramework ][3 - Information] IMEI: 860376089434628
+[2026-08-06 09:45:09:595][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationEnd( )
+[2026-08-06 09:45:09:595][BMOprObserv ][3 - Information] [ ENTER ] -> OnFileOprEnd( FileID: _BKF_NV; FileType: ReadFlash; Result: 0 )
+[2026-08-06 09:45:09:595][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFileOprEnd( )
+[2026-08-06 09:45:09:595][BMOprObserv ][3 - Information] [ ENTER ] -> OnFileOprStart( FileID: BOOTLOADER; FileType: CODE )
+[2026-08-06 09:45:09:595][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFileOprStart( )
+[2026-08-06 09:45:09:595][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationStart( FileID: BOOTLOADER; FileType: CODE; OperationType: Download  )
+[2026-08-06 09:45:09:595][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationStart( )
+[2026-08-06 09:45:09:595][BMPlatform2 ][3 - Information] [ ENTER ] -> Download( FileSize: 0xBF40, FileOffset: 0x0 )
+[2026-08-06 09:45:09:595][BMPlatform2 ][3 - Information] [ LEAVE ] <- Download( )
+[2026-08-06 09:45:09:597][BMPlatform3 ][3 - Information] StartData( CMD: 0x1 ( BSL_CMD_START_DATA ), Base: 0x60000000, Size: 0x0000BF40, Timeout: 30000 ): Success.
+[2026-08-06 09:45:09:680][BMPlatform3 ][3 - Information] MidstDataFast( CMD: 0x2 ( BSL_CMD_MIDST_DATA ), Total: 0x0000BF40, Timeout: 120000  ): Success.
+[2026-08-06 09:45:09:876][BMPlatform3 ][3 - Information] EndData( CMD: 0x3 ( BSL_CMD_END_DATA ), Timeout: 60000 ): Success.
+[2026-08-06 09:45:09:876][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationEnd( FileID: BOOTLOADER; FileType: CODE; OperationType: Download; Result: 0 )
+[2026-08-06 09:45:09:876][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationEnd( )
+[2026-08-06 09:45:09:876][BMOprObserv ][3 - Information] [ ENTER ] -> OnFileOprEnd( FileID: BOOTLOADER; FileType: CODE; Result: 0 )
+[2026-08-06 09:45:09:876][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFileOprEnd( )
+[2026-08-06 09:45:09:876][BMOprObserv ][3 - Information] [ ENTER ] -> OnFileOprStart( FileID: AP; FileType: CODE )
+[2026-08-06 09:45:09:876][BMOprObserv ][3 - Information] [ LEAVE ] <- OnFileOprStart( )
+[2026-08-06 09:45:09:876][BMOprObserv ][3 - Information] [ ENTER ] -> OnOperationStart( FileID: AP; FileType: CODE; OperationType: Download  )
+[2026-08-06 09:45:09:876][BMOprObserv ][3 - Information] [ LEAVE ] <- OnOperationStart( )
+[2026-08-06 09:45:09:876][BMPlatform2 ][3 - Information] [ ENTER ] -> Download( FileSize: 0x23E120, FileOffset: 0x0 )
+[2026-08-06 09:45:09:876][BMPlatform2 ][3 - Information] [ LEAVE ] <- Download( )
+[2026-08-06 09:45:09:878][BMPlatform3 ][3 - Information] StartData( CMD: 0x1 ( BSL_CMD_START_DATA ), Base: 0x60010000, Size: 0x0023E120, Timeout: 30000 ): Success.

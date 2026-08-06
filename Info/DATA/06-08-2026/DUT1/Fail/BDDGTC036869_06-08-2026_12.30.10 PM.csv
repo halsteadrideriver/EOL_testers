@@ -1,0 +1,16 @@
+Report,,,"=DISPIMG(""ID_24FF91F9E61D40D0BFEF396E55F21BAF"",1)",,,
+,,,,,,,
+Summary,,,,,,,
+Serial Number,BDDGTC036869,,,,,,
+Configuration Name,DTU_FCT_RX_RY2,,,,,,
+River EOL Doc Version,T0_DTU_V2.2,,,,,,
+Date,06-08-2026_12.30.10 PM,,,,,,
+Operator,Akshatha_13267,,,,,,
+DUT,1,,,,,,
+Cycle time,8.92,,,,,,
+Overall Results,Fail,,,,,,
+,,,,,,,
+Results,,,,,,,
+ScriptName,Stepname,LSL,ACTUAL,USL,RESULT,UNIT,Time(s)
+Power Lines Impedance check,Config DAQ(1),,,,,,1.54
+Power Lines Impedance check,Read RES TP19-TP3,5.00,0.09,Inf,Fail,Kohm,6.98
