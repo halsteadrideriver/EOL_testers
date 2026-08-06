@@ -157,7 +157,7 @@ def process_csv(input_file,output_pdf):
         df.dropna(how='all', axis=1, inplace=True)
         df = df.dropna(how='all')  # Remove completely empty rows'''
 
-import pandas as pd
+'''import pandas as pd
 from fpdf import FPDF
 
 def process_csv(data_array, output_pdf):
@@ -258,5 +258,211 @@ def process_csv(data_array, output_pdf):
 
 
 # Example call for LabVIEW integration
-#process_csv("C:\ Users\A. Halstesd Evander\Documents/VCU_BoxBuild/Info/DATA/Real_demo_11-02-2025_11-22_DUT2.csv", "C/Users/A. Halstesd Evander/Documents/VCU_BoxBuild/output.xlsx", "C/Users/A. Halstesd Evander/Documents/VCU_BoxBuild/output.pdf")
+#process_csv("C:\ Users\A. Halstesd Evander\Documents/VCU_BoxBuild/Info/DATA/Real_demo_11-02-2025_11-22_DUT2.csv", "C/Users/A. Halstesd Evander/Documents/VCU_BoxBuild/output.xlsx", "C/Users/A. Halstesd Evander/Documents/VCU_BoxBuild/output.pdf")'''
+
+import pandas as pd
+from fpdf import FPDF
+
+def process_csv(data_array, output_pdf):
+    try:
+        # Convert 2D array to DataFrame
+        df = pd.DataFrame(data_array)
+        df.dropna(how='all', axis=1, inplace=True)
+        df = df.dropna(how='all')  # Remove completely empty rows
+        # Remove empty cells
+        df.replace('', pd.NA, inplace=True)
+        df.dropna(axis=0, how='all', inplace=True)
+        df.dropna(axis=1, how='all', inplace=True)
+
+        # PDF Generation
+        pdf = FPDF()
+        pdf.set_auto_page_break(auto=True, margin=15)
+        pdf.add_page()
+
+        # Add report title
+        title = "River Test Report"
+        pdf.set_font("Arial", style='B', size=11)
+        pdf.cell(200, 6, title, ln=True, align='C')
+        pdf.ln(7)
+
+        # User-defined column widths
+        custom_pdf_widths = [39, 52, 14, 14, 14, 14, 14, 14, 14]
+        total_width = sum(custom_pdf_widths[1:])
+        
+        # Base height for a SINGLE line of text
+        line_height = 4
+
+        # ---------------------------------------------------------
+        # HELPER: Accurately wrap text and calculate exact height
+        # ---------------------------------------------------------
+        def get_wrapped_text_and_lines(pdf_obj, text_content, max_width):
+            text_str = str(text_content) if pd.notna(text_content) else ""
+            if not text_str:
+                return "", 1
+            
+            effective_width = max_width - 2  # Subtract internal cell margins
+            lines = 0
+            wrapped_text = ""
+            
+            for paragraph in text_str.split('\n'):
+                words = paragraph.split(' ')
+                current_line = ""
+                for word in words:
+                    # If a single unbroken word exceeds the column width, force split it
+                    if pdf_obj.get_string_width(word) > effective_width:
+                        if current_line:
+                            wrapped_text += current_line + "\n"
+                            lines += 1
+                            current_line = ""
+                        temp_word = ""
+                        for char in word:
+                            if pdf_obj.get_string_width(temp_word + char) > effective_width:
+                                wrapped_text += temp_word + "\n"
+                                lines += 1
+                                temp_word = char
+                            else:
+                                temp_word += char
+                        current_line = temp_word
+                    elif current_line == "":
+                        current_line = word
+                    else:
+                        test_line = current_line + " " + word
+                        # Check if adding the next word exceeds width
+                        if pdf_obj.get_string_width(test_line) <= effective_width:
+                            current_line = test_line
+                        else:
+                            wrapped_text += current_line + "\n"
+                            lines += 1
+                            current_line = word
+                            
+                if current_line:
+                    wrapped_text += current_line + "\n"
+                    lines += 1
+                    
+            return wrapped_text.strip(), max(1, lines)
+
+        # --- FIRST BOX (Rows 1 to 7) ---
+        pdf.set_fill_color(199, 244, 255)
+        pdf.set_font("Arial", style='B', size=7)
+
+        first_box_header = " | ".join(str(val) for val in df.iloc[0].values if pd.notna(val))
+        pdf.cell(sum(custom_pdf_widths), 8, first_box_header, 1, 0, 'C', True)
+        pdf.ln()
+
+        pdf.set_font("Arial", size=6)
+        for row in df.values[1:7]:
+            if pd.notna(row).any():  # Skip rows with all empty values
+                w1 = custom_pdf_widths[0]
+                w2 = total_width
+                
+                raw_merged = " | ".join(str(val) for val in row[1:] if pd.notna(val))
+                
+                # 1. Format text and calculate exact lines
+                col0_text, lines1 = get_wrapped_text_and_lines(pdf, row[0], w1)
+                merged_text, lines2 = get_wrapped_text_and_lines(pdf, raw_merged, w2)
+                row_h = max(lines1, lines2) * line_height
+
+                # Apply conditional coloring
+                fill = False
+                if "pass" in raw_merged.lower():
+                    pdf.set_fill_color(198, 239, 206)
+                    fill = True
+                elif "fail" in raw_merged.lower():
+                    pdf.set_fill_color(255, 199, 206)
+                    fill = True
+
+                # Handle page break manually
+                if pdf.get_y() + row_h > 280:
+                    pdf.add_page()
+
+                # Save current X, Y coordinates
+                x = pdf.get_x()
+                y = pdf.get_y()
+
+                # 2. Draw Cell 1 (Left column)
+                pdf.rect(x, y, w1, row_h)
+                pdf.set_xy(x, y)
+                pdf.multi_cell(w1, line_height, col0_text, border=0, align='C')
+
+                # 3. Draw Cell 2 (Right merged columns)
+                pdf.set_xy(x + w1, y)
+                pdf.rect(x + w1, y, w2, row_h, 'DF' if fill else 'D')
+                pdf.set_xy(x + w1, y)
+                pdf.multi_cell(w2, line_height, merged_text, border=0, align='L')
+
+                # 4. Move cursor down to the start of the next row
+                pdf.set_xy(x, y + row_h)
+
+        # --- SECOND BOX (Remaining rows) ---
+        pdf.set_fill_color(199, 244, 255)
+        if len(df) > 7:
+            pdf.set_font("Arial", style='B', size=8)
+            second_box_header = " | ".join(str(val) for val in df.iloc[7].values if pd.notna(val))
+            pdf.cell(sum(custom_pdf_widths), 8, second_box_header, 1, 0, 'C', True)
+            pdf.ln()
+
+        pdf.set_font("Arial", size=5)
+        for row in df.values[8:]:
+            if pd.notna(row).any():  
+                wrapped_row_data = []
+                row_lines = 1
+                
+                # 1. Pre-calculate exact row height needed based on wrapped text
+                for col_idx, item in enumerate(row):
+                    width = custom_pdf_widths[col_idx] if col_idx < len(custom_pdf_widths) else 30
+                    wrapped_item, cell_lines = get_wrapped_text_and_lines(pdf, item, width)
+                    wrapped_row_data.append(wrapped_item)
+                    if cell_lines > row_lines:
+                        row_lines = cell_lines
+                
+                row_h = row_lines * line_height
+
+                # Ensure page break is handled manually
+                if pdf.get_y() + row_h > 280:
+                    pdf.add_page()
+
+                start_x = pdf.get_x()
+                start_y = pdf.get_y()
+
+                # 2. Draw each cell in the row side-by-side
+                for col_idx, item in enumerate(row):
+                    width = custom_pdf_widths[col_idx] if col_idx < len(custom_pdf_widths) else 30
+                    text = wrapped_row_data[col_idx]
+                    
+                    # Apply conditional coloring against original item value
+                    fill = False
+                    if pd.notna(item) and isinstance(item, str):
+                        if item.lower() == "pass":
+                            pdf.set_fill_color(198, 239, 206)
+                            fill = True
+                        elif item.lower() == "fail":
+                            pdf.set_fill_color(255, 199, 206)
+                            fill = True
+
+                    # Draw cell background/border to guarantee uniform height across the row
+                    current_x = pdf.get_x()
+                    pdf.rect(current_x, start_y, width, row_h, 'DF' if fill else 'D')
+                    
+                    # Draw perfectly wrapped text inside the cell using multi_cell
+                    pdf.set_xy(current_x, start_y)
+                    pdf.multi_cell(width, line_height, text, border=0, align='C')
+                    
+                    # Move X to the start of the next cell in the same row
+                    pdf.set_xy(current_x + width, start_y)
+
+                # Move cursor down to the start of the next row
+                pdf.set_xy(start_x, start_y + row_h)
+
+        # Remove unwanted pages
+        pdf_pages = pdf.page_no()
+        if pdf_pages > 1:
+            for page in range(pdf_pages, 1, -1):  
+                if pdf.get_y() == 15:  
+                    pdf.pages.pop(page - 1)
+
+        pdf.output(output_pdf)
+        return "Success: PDF generated."
+
+    except Exception as e:
+        return f"Error: {e}"
 
