@@ -2,8 +2,8 @@
 <image x="0" y="0" width="2544" height="1904" xlink:href="RX_DTU2_T0000_02_CAM.jpg" />
 <!--Tool[0003].Output.Graphic.Region-->
 <g class="EnableCustomAttribute" custom_stroke-width="2.000" stroke="#2a56af" stroke-width="2.000" >
-<rect x="1937.984" y="1186.478" width="435.000" height="297.000" fill="none" transform="rotate(359.690 2155.484 1334.978)" />
-<polygon points="2154.680,1186.480 2146.680,1181.680 2146.680,1191.280 " fill="#2a56af" fill-opacity="1.000" stroke="none" transform="rotate(359.690 2154.680 1186.480)" />
+<rect x="1939.723" y="1189.426" width="435.000" height="297.000" fill="none" transform="rotate(359.898 2157.223 1337.926)" />
+<polygon points="2156.958,1189.427 2148.958,1184.627 2148.958,1194.227 " fill="#2a56af" fill-opacity="1.000" stroke="none" transform="rotate(359.898 2156.958 1189.427)" />
 </g>
 <!--Tool[0003].Output.Graphic.ArrayTarget-->
 <defs >
@@ -49,11 +49,11 @@
 </g>
 </svg>
 </defs>
-<g transform="translate(2277.342 1412.517) " >
-<use href="#Tool[0003].Output.Graphic.PrimaryTarget.OtherGraphics" transform="rotate(-0.290)" />
+<g transform="translate(2280.359 1415.335) " >
+<use href="#Tool[0003].Output.Graphic.PrimaryTarget.OtherGraphics" transform="rotate(-0.109)" />
 </g>
-<g transform="translate(2277.342 1412.517) " >
-<use href="#Tool[0003].Output.Graphic.PrimaryTarget" transform="rotate(-0.290)" />
+<g transform="translate(2280.359 1415.335) " >
+<use href="#Tool[0003].Output.Graphic.PrimaryTarget" transform="rotate(-0.109)" />
 </g>
 <g class="EnableCustomAttribute" custom_fontsize="12" font-size="12" font-weight="bold" custom_stroke-width="2" stroke-width="2" fill="#87bb0c" stroke="#000000" paint-order="stroke" >
 </g>
