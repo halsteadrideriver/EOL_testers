@@ -72,6 +72,7 @@
 			<Item Name="Test User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/Test User Event - Stop.lvlib"/>
 		</Item>
 		<Item Name="Barcode_Write_DTU.vi" Type="VI" URL="../support/Barcode_Write_DTU.vi"/>
+		<Item Name="Byte_read.vi" Type="VI" URL="../support/Byte_read.vi"/>
 		<Item Name="Conf_select.vi" Type="VI" URL="../support/Conf_select.vi"/>
 		<Item Name="CSQ_Check.vi" Type="VI" URL="../support/CSQ_Check.vi"/>
 		<Item Name="Dynamic_Switch_EOL.vi" Type="VI" URL="../support/Dynamic_Switch_EOL.vi"/>
