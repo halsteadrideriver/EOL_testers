@@ -1,0 +1,1 @@
+For SSL certification we can make a one time run state machine VI but similar to logic code done in Flashing.
