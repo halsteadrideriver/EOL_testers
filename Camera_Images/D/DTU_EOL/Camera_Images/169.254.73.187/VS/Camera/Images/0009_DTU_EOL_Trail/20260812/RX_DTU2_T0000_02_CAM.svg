@@ -49,11 +49,11 @@
 </g>
 </svg>
 </defs>
-<g transform="translate(2198.927 1256.549) " >
-<use href="#Tool[0028].Output.Graphic.PrimaryTarget.OtherGraphics" transform="rotate(0.127)" />
+<g transform="translate(2198.389 1258.009) " >
+<use href="#Tool[0028].Output.Graphic.PrimaryTarget.OtherGraphics" transform="rotate(0.125)" />
 </g>
-<g transform="translate(2198.927 1256.549) " >
-<use href="#Tool[0028].Output.Graphic.PrimaryTarget" transform="rotate(0.127)" />
+<g transform="translate(2198.389 1258.009) " >
+<use href="#Tool[0028].Output.Graphic.PrimaryTarget" transform="rotate(0.125)" />
 </g>
 <g class="EnableCustomAttribute" custom_fontsize="12" font-size="12" font-weight="bold" custom_stroke-width="2" stroke-width="2" fill="#87bb0c" stroke="#000000" paint-order="stroke" >
 </g>
