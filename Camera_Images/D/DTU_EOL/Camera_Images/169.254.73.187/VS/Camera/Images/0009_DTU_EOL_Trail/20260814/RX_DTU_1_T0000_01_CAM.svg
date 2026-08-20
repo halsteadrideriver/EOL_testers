@@ -57,14 +57,14 @@
 <defs >
 <path id="Tool[0001].Output.Graphic.PrimaryTarget0" class="EnableCustomAttribute" custom_scale="1" custom_offset_x="3.000" custom_offset_y="-3.000" d="M 3.000 -3.000 h 1000" />
 </defs>
-<g transform="translate(728.804 918.362) " >
-<use href="#Tool[0001].Output.Graphic.PrimaryTarget.OtherGraphics" transform="rotate(-0.389)" />
+<g transform="translate(722.322 918.325) " >
+<use href="#Tool[0001].Output.Graphic.PrimaryTarget.OtherGraphics" transform="rotate(-0.187)" />
 </g>
-<g transform="translate(728.804 918.362) " >
-<use href="#Tool[0001].Output.Graphic.PrimaryTarget" transform="rotate(-0.389)" />
+<g transform="translate(722.322 918.325) " >
+<use href="#Tool[0001].Output.Graphic.PrimaryTarget" transform="rotate(-0.187)" />
 </g>
 <g class="EnableCustomAttribute" custom_fontsize="12" font-size="12" font-weight="bold" custom_stroke-width="2" stroke-width="2" fill="#87bb0c" stroke="#000000" paint-order="stroke" >
-<g transform="translate(728.804 918.362) " >
+<g transform="translate(722.322 918.325) " >
 <text style="white-space:pre" >
 <textPath href="#Tool[0001].Output.Graphic.PrimaryTarget0" >98.4</textPath>
 </text>

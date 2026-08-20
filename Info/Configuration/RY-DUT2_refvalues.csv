@@ -1,25 +1,25 @@
-Images,REQ_SCORE,No. Of Matches_req
-8segment.jpg,700,1
-Battery.jpg,750,1
-Bluetooth.jpg,750,1
-Fast_Charging.jpg,750,1
-HighBeam.jpg,750,1
-hillhold.jpg,750,1
-Indicators.jpg,750,1
-kmph.jpg,700,1
-lite_blue curve.jpg,750,1
-Mode_ODO.jpg,750,1
-MOTOR_ON.jpg,750,1
-Orange_warning.jpg,750,1
-Plug_lock.jpg,750,1
-range_charge.jpg,750,1
-red_curve.jpg,750,1
-red_indicators.jpg,750,1
-red_warning.jpg,750,1
-regen.jpg,750,1
-Ride.jpg,750,1
-service.jpg,750,1
-sidestand.jpg,750,1
-Signal.jpg,750,1
-sleep.jpg,750,1
-tortoise.jpg,750,1
+Images,REQ_SCORE,No. Of Matches_req,LL,UL,White with color,Limit
+8segment.jpg,700,1,2.5,20,TRUE,60000
+Battery.jpg,700,1,2.5,20,FALSE,80
+Bluetooth.jpg,700,1,2.5,20,FALSE,80
+Fast_Charging.jpg,700,1,2.5,20,FALSE,80
+HighBeam.jpg,700,1,2.5,20,FALSE,80
+hillhold.jpg,700,1,2.5,20,FALSE,80
+Indicators.jpg,700,1,2.5,20,FALSE,80
+kmph.jpg,700,1,200,255,TRUE,2000
+lite_blue curve.jpg,700,1,70,120,TRUE,77000
+Mode_ODO.jpg,700,1,80,150,TRUE,23000
+MOTOR_ON.jpg,700,1,2.5,20,FALSE,80
+Orange_warning.jpg,700,1,2.5,20,FALSE,80
+Plug_lock.jpg,700,1,2.5,20,FALSE,80
+range_charge.jpg,700,1,90,120,TRUE,10000
+red_curve.jpg,700,1,70,150,TRUE,28000
+red_indicators.jpg,700,1,2.5,20,FALSE,80
+red_warning.jpg,700,1,2.5,20,FALSE,80
+regen.jpg,700,1,2.5,20,FALSE,80
+Ride.jpg,700,1,2.5,20,FALSE,80
+service.jpg,700,1,2.5,20,FALSE,80
+sidestand.jpg,700,1,2.5,20,FALSE,80
+Signal.jpg,700,1,2.5,20,FALSE,80
+sleep.jpg,700,1,2.5,20,FALSE,80
+tortoise.jpg,700,1,2.5,20,FALSE,80

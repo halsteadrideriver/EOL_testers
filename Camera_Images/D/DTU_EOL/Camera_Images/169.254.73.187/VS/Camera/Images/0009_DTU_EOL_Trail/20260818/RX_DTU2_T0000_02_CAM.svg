@@ -1,0 +1,60 @@
+<svg graphicVer="2" x="-999999" y="-999999" width="2544" height="1904" viewBox="0 0 2544 1904" overflow="visible" preserveAspectRatio="xMidYMid" xml:space="default" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" version="1.1" >
+<image x="0" y="0" width="2544" height="1904" xlink:href="RX_DTU2_T0000_02_CAM.jpg" />
+<!--Tool[0028].Output.Graphic.Region-->
+<g class="EnableCustomAttribute" custom_stroke-width="2.000" stroke="#2a56af" stroke-width="2.000" >
+<rect x="1893.000" y="1041.000" width="407.000" height="272.000" fill="none" transform="rotate(359.999 2096.500 1177.000)" />
+<polygon points="2096.498,1041.000 2088.498,1036.200 2088.498,1045.800 " fill="#2a56af" fill-opacity="1.000" stroke="none" transform="rotate(359.999 2096.498 1041.000)" />
+</g>
+<!--Tool[0028].Output.Graphic.ArrayTarget-->
+<defs >
+<svg id="Tool[0028].Output.Graphic.ArrayTarget.OtherGraphics" overflow="visible" >
+<g class="EnableCustomAttribute" custom_stroke-width="1.000" stroke="#ddb60e" stroke-width="1.000" >
+<g class="EnableCustomAttribute" custom_stroke-width="1.000" stroke="#ddb60e" stroke-width="1.000" >
+<polygon points="-35.500,-42.000 -37.500,-29.000 -43.500,-27.000 -52.500,-17.000 -56.500,-4.000 -60.500,2.000 -72.500,14.000 -71.500,32.000 -49.500,47.000 -38.500,42.000 
+    -28.500,38.000 -21.500,34.000 -7.500,29.000 7.500,32.000 15.500,33.000 21.500,36.000 24.500,39.000 44.500,43.000 60.500,36.000 72.500,17.000 
+    60.500,7.000 68.500,9.000 66.500,-7.000 50.500,-19.000 40.500,-20.000 29.500,-20.000 18.500,-24.000 6.500,-33.000 -2.500,-33.000 -10.500,-32.000 
+    -32.500,-47.000 " fill="none" />
+</g>
+</g>
+</svg>
+</defs>
+<defs >
+<svg id="Tool[0028].Output.Graphic.ArrayTarget" overflow="visible" >
+<g class="EnableCustomAttribute" custom_scale="1" >
+<polygon points="-0.500,-0.500 -0.500,4.000 -2.400,4.000 0.000,8.000 2.400,4.000 0.500,4.000 0.500,0.500 4.000,0.500 4.000,2.400 8.000,0.000 
+    4.000,-2.400 4.000,-0.500 " fill="#ddb60e" fill-opacity="1.000" stroke="#000000" stroke-opacity="1.000" stroke-width="2.000" paint-order="stroke" />
+</g>
+</svg>
+</defs>
+<g class="EnableCustomAttribute" custom_fontsize="12" font-size="12" font-weight="bold" custom_stroke-width="2" stroke-width="2" fill="#ddb60e" stroke="#000000" paint-order="stroke" >
+</g>
+<!--Tool[0028].Output.Graphic.PrimaryTarget-->
+<defs >
+<svg id="Tool[0028].Output.Graphic.PrimaryTarget.OtherGraphics" overflow="visible" >
+<g class="EnableCustomAttribute" custom_stroke-width="2.000" stroke="#87bb0c" stroke-width="2.000" >
+<g class="EnableCustomAttribute" custom_stroke-width="2.000" stroke="#87bb0c" stroke-width="2.000" >
+<polygon points="-35.500,-42.000 -37.500,-29.000 -43.500,-27.000 -52.500,-17.000 -56.500,-4.000 -60.500,2.000 -72.500,14.000 -71.500,32.000 -49.500,47.000 -38.500,42.000 
+    -28.500,38.000 -21.500,34.000 -7.500,29.000 7.500,32.000 15.500,33.000 21.500,36.000 24.500,39.000 44.500,43.000 60.500,36.000 72.500,17.000 
+    60.500,7.000 68.500,9.000 66.500,-7.000 50.500,-19.000 40.500,-20.000 29.500,-20.000 18.500,-24.000 6.500,-33.000 -2.500,-33.000 -10.500,-32.000 
+    -32.500,-47.000 " fill="none" />
+</g>
+</g>
+</svg>
+</defs>
+<defs >
+<svg id="Tool[0028].Output.Graphic.PrimaryTarget" overflow="visible" >
+<g class="EnableCustomAttribute" custom_scale="1" >
+<polygon points="-1.000,-1.000 -1.000,4.000 -2.400,4.000 0.000,8.000 2.400,4.000 1.000,4.000 1.000,1.000 4.000,1.000 4.000,2.400 8.000,0.000 
+    4.000,-2.400 4.000,-1.000 " fill="#87bb0c" fill-opacity="1.000" stroke="#000000" stroke-opacity="1.000" stroke-width="2.000" paint-order="stroke" />
+</g>
+</svg>
+</defs>
+<g transform="translate(2208.797 1254.411) " >
+<use href="#Tool[0028].Output.Graphic.PrimaryTarget.OtherGraphics" transform="rotate(-0.296)" />
+</g>
+<g transform="translate(2208.797 1254.411) " >
+<use href="#Tool[0028].Output.Graphic.PrimaryTarget" transform="rotate(-0.296)" />
+</g>
+<g class="EnableCustomAttribute" custom_fontsize="12" font-size="12" font-weight="bold" custom_stroke-width="2" stroke-width="2" fill="#87bb0c" stroke="#000000" paint-order="stroke" >
+</g>
+</svg>
