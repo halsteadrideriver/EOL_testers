@@ -1,19 +1,19 @@
 Images,REQ_SCORE,No. Of Matches_req,LL,UL,White with color,Limit
-8segment.jpg,700,1,2.5,20,TRUE,60000
+8segment.jpg,700,1,2.5,20,TRUE,50000
 Battery.jpg,700,1,2.5,20,FALSE,80
 Bluetooth.jpg,700,1,2.5,20,FALSE,80
 Fast_Charging.jpg,700,1,2.5,20,FALSE,80
 HighBeam.jpg,700,1,2.5,20,FALSE,80
 hillhold.jpg,700,1,2.5,20,FALSE,80
 Indicators.jpg,700,1,2.5,20,FALSE,80
-kmph.jpg,700,1,200,255,TRUE,2000
+kmph.jpg,700,1,200,255,TRUE,1700
 lite_blue curve.jpg,700,1,70,120,TRUE,77000
 Mode_ODO.jpg,700,1,80,150,TRUE,23000
 MOTOR_ON.jpg,700,1,2.5,20,FALSE,80
 Orange_warning.jpg,700,1,2.5,20,FALSE,80
 Plug_lock.jpg,700,1,2.5,20,FALSE,80
-range_charge.jpg,700,1,90,120,TRUE,10000
-red_curve.jpg,700,1,70,150,TRUE,28000
+range_charge.jpg,700,1,90,120,TRUE,9000
+red_curve.jpg,700,1,70,150,TRUE,24000
 red_indicators.jpg,700,1,2.5,20,FALSE,80
 red_warning.jpg,700,1,2.5,20,FALSE,80
 regen.jpg,700,1,2.5,20,FALSE,80
