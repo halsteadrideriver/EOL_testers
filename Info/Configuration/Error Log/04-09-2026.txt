@@ -1,0 +1,6 @@
+04:14 PM                    Barcode_Scanner.lvlib:Barcode Scanner.vi<ERR>
+The invalid message string "Write_trig2" was received in the Message Handling Loop.
+
+
+<b>Complete call chain:</b>
+     Barcode_Scanner.lvlib:Barcode Scanner.vi                                        Barcode_Scanner.lvlib:Barcode Scanner.vi
